@@ -1,0 +1,20 @@
+package com.capstone.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capstone.model.*;
+import com.capstone.repository.*;
+
+@Service
+public class usersServiceImp implements usersService{
+
+	@Autowired
+	private UsersRepository repo;
+	
+	@Override
+	public Users getByCustid(int custid) {
+		Users userdetails=repo.getByCustid(custid);
+		return userdetails;
+}
+}

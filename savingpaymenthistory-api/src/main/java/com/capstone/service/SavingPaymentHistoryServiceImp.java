@@ -1,0 +1,44 @@
+package com.capstone.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capstone.model.*;
+import com.capstone.repository.*;
+
+@Service
+public class SavingPaymentHistoryServiceImp implements SavingPaymentHistoryService{
+	
+	@Autowired
+	private SavingPaymentHistoryRepository repo;
+	
+
+	@Override 
+	public List<SavingPaymentHistory> getSavingsAccByCust() {
+		return (List<SavingPaymentHistory>) repo.findAll();
+	}
+
+	
+
+
+	@Override
+	public SavingPaymentHistory addTransaction(SavingPaymentHistory payment) {
+		return repo.save(payment);
+		
+	}
+
+	@Override
+	public SavingPaymentHistory getfindByTransactionNo(int tno) {
+		Optional<SavingPaymentHistory> optionalUser = repo.findById(tno);
+		if(optionalUser.isPresent()) {
+			return optionalUser.get();
+		} else {
+			throw new Error("User doesn't exists");
+		}
+
+	}
+
+}

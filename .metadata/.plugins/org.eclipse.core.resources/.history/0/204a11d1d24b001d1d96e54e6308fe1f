@@ -1,0 +1,44 @@
+package com.capstone.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capstone.model.Loaninfo;
+import com.capstone.repository.loanRepository;
+
+@Service
+public class loanServiceImp implements loanService{
+
+	@Autowired
+	private loanRepository repo;
+
+	@Override
+	public List<Loaninfo> getLoan() {
+		List<Loaninfo> loanlist =  (List<Loaninfo>) repo.findAll();
+		return loanlist;
+
+	}
+
+	@Override
+	public Loaninfo getLoanAccountDetails(int accNumber) {
+		Loaninfo loandetails=repo.findByLoanaccno(accNumber);
+		return loandetails;
+	}
+
+	@Override
+	public List<Loaninfo> getLoanAccByCust(int custid) {
+		// TODO Auto-generated method stub
+		return (List<Loaninfo>) repo.findAllByCustid(custid);
+	}
+
+	@Override
+	public Loaninfo getloanDetailsofCustbyLoan(int custid, int accno) {
+		// TODO Auto-generated method stub
+		return repo.findByCustidAndLoanaccno(custid,accno);
+	}
+	
+	
+
+}

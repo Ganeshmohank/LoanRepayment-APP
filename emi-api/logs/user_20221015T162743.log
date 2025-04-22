@@ -1,0 +1,610 @@
+2022-10-15 16:27:44 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 28476 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-15 16:27:44 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-15 16:27:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-15 16:27:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-15 16:27:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-15 16:27:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interfaces.
+2022-10-15 16:27:46 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5babc4e2-f0b0-3323-8f75-7d5bd9cf4d2d
+2022-10-15 16:27:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-15 16:27:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-15 16:27:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-15 16:27:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-15 16:27:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-15 16:27:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2471 ms
+2022-10-15 16:27:47 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-15 16:27:47 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-15 16:27:48 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-15 16:27:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-15 16:27:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-15 16:27:48 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-15 16:27:49 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-15 16:27:49 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-15 16:27:49 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-15 16:27:50 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-15 16:27:50 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-15 16:27:50 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-15 16:27:50 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-15 16:27:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-15 16:27:50 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 16:27:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-15 16:27:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-15 16:27:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-15 16:27:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-15 16:27:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-15 16:27:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-15 16:27:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-15 16:27:51 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-15 16:27:51 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-15 16:27:51 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-15 16:27:51 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665831471043 with initial instances count: 1
+2022-10-15 16:27:51 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-15 16:27:51 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665831471047, current=UP, previous=STARTING]
+2022-10-15 16:27:51 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.8:emi-api:8081: registering service...
+2022-10-15 16:27:51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-15 16:27:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-15 16:27:51 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-15 16:27:51 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.8:emi-api:8081 - registration status: 204
+2022-10-15 16:27:51 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 6.86 seconds (JVM running for 7.785)
+2022-10-15 16:28:11 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-15 16:28:11 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-15 16:28:11 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2022-10-15 16:28:11 [http-nio-8081-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token expired] with root cause
+javax.servlet.ServletException: Token expired
+	at com.capstone.filter.EmiFilter.doFilter(EmiFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-15 16:28:35 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:28:35 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@58fa4bc3
+2022-10-15 16:28:35 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:28:35 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:28:35 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1276c4d3
+2022-10-15 16:28:35 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:28:35 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.updateEMI() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-11-07, remaining_amount=500000.0]
+2022-10-15 16:28:35 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:28:35 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.updateEMI() with arguments=<200 OK OK,{message=emi updated},[]>
+2022-10-15 16:28:35 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:16 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:30:16 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2b3065ff
+2022-10-15 16:30:16 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:16 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:30:16 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7dfb7810
+2022-10-15 16:30:16 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:17 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 16:30:17 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:17 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:30:17 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@694a233c
+2022-10-15 16:30:17 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:17 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 16:30:17 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:17 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1],[]>
+2022-10-15 16:30:17 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6630a3d1
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@68f75167
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6b0b0a34
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1],[]>
+2022-10-15 16:30:20 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:35 [http-nio-8081-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.EmiFilter.doFilter(EmiFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6d62b279
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@63a551a5
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1c1a1e9
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 16:30:40 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@47f745e6
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4930b368
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1e02b022
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1],[]>
+2022-10-15 16:30:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:15 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:32:15 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@690d5d85
+2022-10-15 16:32:15 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:15 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:32:15 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@26f7b4ef
+2022-10-15 16:32:15 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:15 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 16:32:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:32:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4296f1c1
+2022-10-15 16:32:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 16:32:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1],[]>
+2022-10-15 16:32:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4423dbc7
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3e4d802c
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3f711208
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1],[]>
+2022-10-15 16:32:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@69a5a51
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@409b8242
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-11-07, remaining_amount=500000.0]
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1f970ea2
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-11-07, remaining_amount=500000.0]
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-11-07, remaining_amount=500000.0],[]>
+2022-10-15 16:32:26 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@11ec3e82
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@54eea2db
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-11-07, remaining_amount=500000.0]
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@308f05e4
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-11-07, remaining_amount=500000.0]
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-11-07, remaining_amount=500000.0],[]>
+2022-10-15 16:32:28 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:36 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:32:36 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2094424a
+2022-10-15 16:32:36 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:36 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:32:36 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@30c90f4c
+2022-10-15 16:32:36 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:36 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.updateEMI() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:32:36 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:36 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.updateEMI() with arguments=<200 OK OK,{message=emi updated},[]>
+2022-10-15 16:32:36 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@41839ae9
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@337d9feb
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3b228163
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53],[]>
+2022-10-15 16:32:46 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:32:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@29dbdd2f
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6a83f43d
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6665144c
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53],[]>
+2022-10-15 16:34:42 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@73c8018f
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@79fd675e
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6adba982
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53],[]>
+2022-10-15 16:34:51 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:37:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 16:42:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 16:47:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@8bec73f
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@207122d6
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@26424bb2
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53],[]>
+2022-10-15 16:48:24 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1cb1896a
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2b5c36fc
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4886a91a
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53],[]>
+2022-10-15 16:48:36 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@207e03ca
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@40ed5393
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@57b73283
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53]
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.122, upcomming_payment_date=2022-12-07, remaining_amount=490931.53],[]>
+2022-10-15 16:48:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:52:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@da40148
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1b852141
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1f34a463
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 16:54:08 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6e72edbb
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@678bb7da
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5b287eb6
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 16:54:11 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@553046f9
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@73143c5c
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3e13bfaa
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 16:55:34 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:57:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 16:58:38 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:58:38 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6ed56d23
+2022-10-15 16:58:38 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:58:38 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:58:38 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@60128e89
+2022-10-15 16:58:38 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:58:39 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:58:39 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:58:39 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:58:39 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@209591e5
+2022-10-15 16:58:39 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:58:39 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:58:39 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:58:39 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 16:58:39 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@561a56f4
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@34f5c562
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4c651d0
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 16:59:01 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7217b84f
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@798984ab
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@269642ac
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 16:59:15 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@60c79548
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@778fc0f6
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@631f7a36
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 17:01:44 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@687b9b2b
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@26b41556
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6bd50d57
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 17:02:40 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3f41a7ba
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6d7fd2c8
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@38101933
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 17:02:43 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:02:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@39e0f1f1
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3ddf6215
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@14e280eb
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 17:03:42 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6be7d00
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@52536e6f
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@576a8022
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 17:03:50 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6ad92d6e
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@647856c4
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@65b25456
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 17:04:25 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2467469f
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3ae5e964
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@10fe0ff0
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 17:04:31 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@19f84f05
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3b79f38a
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2a9d670a
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 17:04:54 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@73977a7
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3c27a945
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@46f1cc05
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 17:06:40 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4fb14960
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@61c179db
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@35adb1c0
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1]
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.067, upcomming_payment_date=2022-11-07, remaining_amount=104577.1],[]>
+2022-10-15 17:06:52 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.EmiController
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5892cfa3
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@78b52cd3
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.EmiServiceImp
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4f8efb3a
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.EmiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1]
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.EmiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15909.827, upcomming_payment_date=2022-12-07, remaining_amount=1490329.1],[]>
+2022-10-15 17:06:55 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 17:07:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 17:12:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

@@ -1,0 +1,25 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: authentication-api
+
+  datasource:
+    url: ${capstone_db}
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: infogmk01@gmail.com
+    password: onohcqktxkrketmr
+      
+
+    
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server-api:8761/eureka/

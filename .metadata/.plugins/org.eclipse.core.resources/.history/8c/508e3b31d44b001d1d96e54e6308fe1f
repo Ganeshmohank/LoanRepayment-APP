@@ -1,0 +1,14 @@
+package com.capstone.repository;
+
+import com.capstone.model.*;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+
+@Repository
+public interface SavingpaymenthistoryRepository extends CrudRepository<Savingpaymenthistory,Integer>{
+		
+	public List<Savingpaymenthistory> findAllByCustid(int custid);
+}

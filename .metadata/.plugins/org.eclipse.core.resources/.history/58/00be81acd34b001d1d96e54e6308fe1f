@@ -1,0 +1,40 @@
+package com.capstone.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capstone.model.paymentinfo;
+import com.capstone.repository.paymentRepository;
+
+@Service
+public class paymentServiceImp implements paymentService {
+	
+	@Autowired
+	private paymentRepository repo;
+
+	@Override
+	public List<paymentinfo> getpayment() {
+		List<paymentinfo> emilist = repo.findAll();
+		return emilist;
+
+	}
+	@Override
+	public paymentinfo getfindByTransactionNo(int transaction_no){
+		Optional<paymentinfo> optionalUser = repo.findById(transaction_no);
+		if(optionalUser.isPresent()) {
+			return optionalUser.get();
+		} else {
+			throw new Error("User doesn't exists");
+		}
+
+	}
+	@Override
+	public paymentinfo addTransaction(paymentinfo payment) {
+		return repo.save(payment);
+		
+	}
+
+}

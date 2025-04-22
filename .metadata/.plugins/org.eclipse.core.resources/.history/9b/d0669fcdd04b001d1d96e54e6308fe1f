@@ -1,0 +1,46 @@
+package com.capstone.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestAttribute;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.capstone.model.AccountInfo;
+import com.capstone.service.accountinfoService;
+
+
+
+@RestController
+@RequestMapping("/api/accountinfo")
+public class AccountInfoController {
+	@Autowired
+	private accountinfoService accserv;
+	
+	@GetMapping("/getAccountInfo")
+	public ResponseEntity<List<AccountInfo>> getemi() {
+		return new ResponseEntity<List<AccountInfo>>(accserv.getallaccountInfo(),HttpStatus.OK);
+	}
+	@GetMapping("/validate")
+    public String validateAndReturnCustId(@RequestAttribute("currentuser")String custid) {
+        return custid;
+    }
+	
+	@GetMapping("/getAllSavingsAcc/{custid}")
+    public List<AccountInfo> getsavingsAccount(@PathVariable int custid) {
+        return accserv.getAcountsByCustId(custid);
+    }
+    @PostMapping("/updateSavings")
+    public AccountInfo updateBalence(@RequestBody AccountInfo accObj) {
+        return accserv.updateBalence(accObj);
+    }
+    
+}

@@ -1,0 +1,204 @@
+2022-10-11 17:31:11 [restartedMain] INFO  c.c.AuthenticationApiApplication - Starting AuthenticationApiApplication using Java 17.0.2 on MOHAN with PID 15608 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\authentication-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\authentication-api)
+2022-10-11 17:31:11 [restartedMain] INFO  c.c.AuthenticationApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-11 17:31:11 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-11 17:31:11 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-11 17:31:12 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-11 17:31:12 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 128 ms. Found 1 JPA repository interfaces.
+2022-10-11 17:31:12 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=20fbd41e-9591-323c-a48b-adc1d5296ce3
+2022-10-11 17:31:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2022-10-11 17:31:13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2022-10-11 17:31:13 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-11 17:31:13 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 17:31:13 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-11 17:31:13 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1990 ms
+2022-10-11 17:31:13 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-11 17:31:13 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-11 17:31:14 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-11 17:31:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-11 17:31:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-11 17:31:14 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-11 17:31:15 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-11 17:31:15 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 17:31:15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-11 17:31:15 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-10-11 17:31:16 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-11 17:31:16 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-11 17:31:16 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-11 17:31:16 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-11 17:31:16 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 17:31:16 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-11 17:31:16 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-11 17:31:16 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-11 17:31:16 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-11 17:31:16 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-11 17:31:16 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-11 17:31:16 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-11 17:31:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-11 17:31:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-11 17:31:17 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-11 17:31:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665489677317 with initial instances count: 0
+2022-10-11 17:31:17 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application AUTHENTICATION-API with eureka with status UP
+2022-10-11 17:31:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665489677321, current=UP, previous=STARTING]
+2022-10-11 17:31:17 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTHENTICATION-API/192.168.0.4:authentication-api:8085: registering service...
+2022-10-11 17:31:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2022-10-11 17:31:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2022-10-11 17:31:17 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8085
+2022-10-11 17:31:17 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTHENTICATION-API/192.168.0.4:authentication-api:8085 - registration status: 204
+2022-10-11 17:31:17 [restartedMain] INFO  c.c.AuthenticationApiApplication - Started AuthenticationApiApplication in 6.463 seconds (JVM running for 7.471)
+2022-10-11 17:31:41 [http-nio-8085-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-11 17:31:41 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-11 17:31:41 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-10-11 17:31:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:31:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@749b946c
+2022-10-11 17:31:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:31:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:31:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@54f4d738
+2022-10-11 17:31:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:31:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200001, password=Natwest@123, username=NATWEST1, email=natwest1@gmail.com]
+2022-10-11 17:31:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:31:42 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDEiLCJpYXQiOjE2NjU0ODk3MDEsImV4cCI6MTY2NTQ5MzMwMX0.E97U4LZSVx5EA8HbBN_1EK3JoQTiaM2eCiO6_2C3WyY},[]>
+2022-10-11 17:31:42 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:31:47 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-11 17:31:47 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-11 17:31:47 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-11 17:31:47 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-11 17:31:47 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-11 17:31:47 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2022-10-11 17:31:47 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-11 17:31:47 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-11 17:35:18 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:35:18 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2fad8238
+2022-10-11 17:35:18 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:35:18 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<401 UNAUTHORIZED Unauthorized,{message=Please add the valid details, token=null},[]>
+2022-10-11 17:35:18 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:36:16 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 17:41:16 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 17:42:26 [http-nio-8085-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "payald": not a valid `int` value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "payald": not a valid `int` value<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 11] (through reference chain: com.capstone.model.users["custid"])]
+2022-10-11 17:44:45 [http-nio-8085-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "payald": not a valid `int` value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "payald": not a valid `int` value<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 11] (through reference chain: com.capstone.model.users["custid"])]
+2022-10-11 17:45:55 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:45:55 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@24c20c0e
+2022-10-11 17:45:55 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:45:55 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:45:55 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2a05f6e6
+2022-10-11 17:45:55 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:45:55 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=null
+2022-10-11 17:45:55 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:45:55 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<401 UNAUTHORIZED Unauthorized,{message=Customer-id or password incorrect, token=null},[]>
+2022-10-11 17:45:55 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:46:16 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 17:46:33 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:46:33 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2b626de4
+2022-10-11 17:46:33 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:46:33 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:46:33 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@25a586f8
+2022-10-11 17:46:33 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:46:33 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200001, password=Natwest@123, username=NATWEST1, email=natwest1@gmail.com]
+2022-10-11 17:46:33 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:46:33 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDEiLCJpYXQiOjE2NjU0OTA1OTMsImV4cCI6MTY2NTQ5NDE5M30.KykRu-frQYwzx612TEnYL6haXzUHj-fVsK6GrwFbqf8},[]>
+2022-10-11 17:46:33 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:47:46 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:47:46 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@15b70cba
+2022-10-11 17:47:46 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:47:46 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:47:46 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@50b58068
+2022-10-11 17:47:46 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:47:46 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200001, password=Natwest@123, username=NATWEST1, email=natwest1@gmail.com]
+2022-10-11 17:47:46 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:47:46 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDEiLCJpYXQiOjE2NjU0OTA2NjYsImV4cCI6MTY2NTQ5NDI2Nn0.tB9KKx16xxzrNmjZbo-9HVXYN7ZE-IKPTGFy7mUUmjM},[]>
+2022-10-11 17:47:46 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:48:51 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:48:51 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@77d6fb0f
+2022-10-11 17:48:51 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:48:51 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:48:51 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@34a90b8f
+2022-10-11 17:48:51 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:48:51 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200001, password=Natwest@123, username=NATWEST1, email=natwest1@gmail.com]
+2022-10-11 17:48:51 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:48:51 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDEiLCJpYXQiOjE2NjU0OTA3MzEsImV4cCI6MTY2NTQ5NDMzMX0._2gg1kIzJ-ptAyrI36JEsS4UaXqLx4zlGFIABKmb15M},[]>
+2022-10-11 17:48:51 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:48:56 [http-nio-8085-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Numeric value (2022000013245) out of range of int (-2147483648 - 2147483647); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Numeric value (2022000013245) out of range of int (-2147483648 - 2147483647)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 24] (through reference chain: com.capstone.model.users["custid"])]
+2022-10-11 17:49:49 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:49:49 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6f4c103b
+2022-10-11 17:49:49 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:49:49 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:49:49 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2a4e93b6
+2022-10-11 17:49:49 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:49:49 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200001, password=Natwest@123, username=NATWEST1, email=natwest1@gmail.com]
+2022-10-11 17:49:49 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:49:49 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDEiLCJpYXQiOjE2NjU0OTA3ODksImV4cCI6MTY2NTQ5NDM4OX0.MSK-HMRvAmMNa1JcpQvr0Xr9Mh2gAo32bgR_558VPMI},[]>
+2022-10-11 17:49:49 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:50:09 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:50:09 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@771a6118
+2022-10-11 17:50:09 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:50:09 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:50:09 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3218f19f
+2022-10-11 17:50:09 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:50:09 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200001, password=Natwest@123, username=NATWEST1, email=natwest1@gmail.com]
+2022-10-11 17:50:09 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:50:09 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDEiLCJpYXQiOjE2NjU0OTA4MDksImV4cCI6MTY2NTQ5NDQwOX0.fjQYAOwvnm0ehn7Vr_I4MhPouId2O6Z2roiGoEsAHrc},[]>
+2022-10-11 17:50:09 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:50:38 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:50:38 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6f45c406
+2022-10-11 17:50:38 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:50:38 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:50:38 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2d161a13
+2022-10-11 17:50:38 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:50:38 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200001, password=Natwest@123, username=NATWEST1, email=natwest1@gmail.com]
+2022-10-11 17:50:38 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:50:38 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDEiLCJpYXQiOjE2NjU0OTA4MzgsImV4cCI6MTY2NTQ5NDQzOH0.Y_K5YjmND9WPdGHsVVtPtI5jRdRhRN6hAg1BUHc4A40},[]>
+2022-10-11 17:50:38 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:51:16 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 17:51:45 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:51:45 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5f25e74d
+2022-10-11 17:51:45 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:51:45 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:51:45 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@75249f41
+2022-10-11 17:51:45 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:51:45 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=null
+2022-10-11 17:51:45 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:51:45 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<401 UNAUTHORIZED Unauthorized,{message=Customer-id or password incorrect, token=null},[]>
+2022-10-11 17:51:45 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:12 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:52:12 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3d91c12a
+2022-10-11 17:52:12 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:12 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:52:12 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@335628e8
+2022-10-11 17:52:12 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:12 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=null
+2022-10-11 17:52:12 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:12 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<401 UNAUTHORIZED Unauthorized,{message=Customer-id or password incorrect, token=null},[]>
+2022-10-11 17:52:12 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:21 [http-nio-8085-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:52:21 [http-nio-8085-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2894c36e
+2022-10-11 17:52:21 [http-nio-8085-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:21 [http-nio-8085-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:52:21 [http-nio-8085-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@60a99849
+2022-10-11 17:52:21 [http-nio-8085-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:21 [http-nio-8085-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=null
+2022-10-11 17:52:21 [http-nio-8085-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:21 [http-nio-8085-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<401 UNAUTHORIZED Unauthorized,{message=Customer-id or password incorrect, token=null},[]>
+2022-10-11 17:52:21 [http-nio-8085-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:42 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-11 17:52:42 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@f597c3c
+2022-10-11 17:52:42 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:42 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.userServiceImpl
+2022-10-11 17:52:42 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6336fb85
+2022-10-11 17:52:42 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:42 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.userServiceImpl.findByCustidAndPassword() with arguments=null
+2022-10-11 17:52:42 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:52:42 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<401 UNAUTHORIZED Unauthorized,{message=Customer-id or password incorrect, token=null},[]>
+2022-10-11 17:52:42 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application AUTHENTICATION-API with eureka with status DOWN
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665491010356, current=DOWN, previous=UP]
+2022-10-11 17:53:30 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTHENTICATION-API/192.168.0.4:authentication-api:8085: registering service...
+2022-10-11 17:53:30 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTHENTICATION-API/192.168.0.4:authentication-api:8085 - registration status: 204
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8085"]
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8085"]
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8085"]
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-10-11 17:53:30 [RMI TCP Connection(32)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...

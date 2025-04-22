@@ -1,0 +1,550 @@
+2022-10-13 11:38:36 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 15296 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-13 11:38:36 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-13 11:38:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-13 11:38:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-13 11:38:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-13 11:38:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interfaces.
+2022-10-13 11:38:37 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5babc4e2-f0b0-3323-8f75-7d5bd9cf4d2d
+2022-10-13 11:38:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-13 11:38:38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-13 11:38:38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-13 11:38:38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-13 11:38:38 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-13 11:38:38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1821 ms
+2022-10-13 11:38:38 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-13 11:38:38 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 11:38:38 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-13 11:38:38 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-13 11:38:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-13 11:38:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-13 11:38:39 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-13 11:38:39 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 11:38:39 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 11:38:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-13 11:38:40 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-13 11:38:40 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-13 11:38:40 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-13 11:38:40 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-13 11:38:41 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-13 11:38:41 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665641321391 with initial instances count: 2
+2022-10-13 11:38:41 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-13 11:38:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665641321395, current=UP, previous=STARTING]
+2022-10-13 11:38:41 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 11:38:41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-13 11:38:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-13 11:38:41 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-13 11:38:41 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 11:38:41 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 5.402 seconds (JVM running for 6.161)
+2022-10-13 11:43:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 11:48:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 11:53:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 11:58:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:03:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:08:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:13:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:18:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:23:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:28:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:33:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:38:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:43:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:48:41 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:53:24 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2022-10-13 12:53:25 [Thread-1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-13 12:53:25 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665645805003, current=DOWN, previous=UP]
+2022-10-13 12:53:25 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:53:25 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:53:25 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:53:25 [Thread-1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-13 12:53:25 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:53:25 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:53:25 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:53:25 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-10-13 12:53:25 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-10-13 12:53:25 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-13 12:53:28 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-13 12:53:28 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - deregister  status: 200
+2022-10-13 12:53:28 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-13 12:53:29 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 15296 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-13 12:53:29 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-13 12:53:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-13 12:53:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-10-13 12:53:29 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5babc4e2-f0b0-3323-8f75-7d5bd9cf4d2d
+2022-10-13 12:53:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-13 12:53:29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:53:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-13 12:53:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-13 12:53:29 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-13 12:53:29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 529 ms
+2022-10-13 12:53:29 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-13 12:53:29 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 12:53:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-10-13 12:53:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-10-13 12:53:29 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-13 12:53:29 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 12:53:29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:53:29 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-13 12:53:30 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-13 12:53:30 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-13 12:53:30 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-13 12:53:30 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-13 12:53:30 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-13 12:53:30 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665645810342 with initial instances count: 4
+2022-10-13 12:53:30 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-13 12:53:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665645810343, current=UP, previous=STARTING]
+2022-10-13 12:53:30 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:53:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:53:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-13 12:53:30 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-13 12:53:30 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:53:30 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 1.528 seconds (JVM running for 4495.075)
+2022-10-13 12:53:30 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-13 12:54:37 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-13 12:54:37 [Thread-7] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-13 12:54:37 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665645877105, current=DOWN, previous=UP]
+2022-10-13 12:54:37 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:54:37 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:54:37 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:54:37 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-13 12:54:37 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:54:37 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:54:37 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:54:37 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-10-13 12:54:37 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-10-13 12:54:37 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-13 12:54:40 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-13 12:54:40 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - deregister  status: 200
+2022-10-13 12:54:40 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-13 12:54:40 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 15296 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-13 12:54:40 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-13 12:54:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-13 12:54:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-10-13 12:54:40 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5babc4e2-f0b0-3323-8f75-7d5bd9cf4d2d
+2022-10-13 12:54:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-13 12:54:40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:54:40 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-13 12:54:40 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-13 12:54:40 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-13 12:54:40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 413 ms
+2022-10-13 12:54:40 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-13 12:54:40 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 12:54:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-10-13 12:54:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-10-13 12:54:40 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-13 12:54:40 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 12:54:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:54:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-13 12:54:41 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-13 12:54:41 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-13 12:54:41 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-13 12:54:41 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-13 12:54:41 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-13 12:54:41 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665645881494 with initial instances count: 5
+2022-10-13 12:54:41 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-13 12:54:41 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665645881496, current=UP, previous=STARTING]
+2022-10-13 12:54:41 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:54:41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:54:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-13 12:54:41 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-13 12:54:41 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:54:41 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 1.368 seconds (JVM running for 4566.246)
+2022-10-13 12:54:41 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-13 12:55:06 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2022-10-13 12:55:06 [Thread-13] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-13 12:55:06 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665645906132, current=DOWN, previous=UP]
+2022-10-13 12:55:06 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:55:06 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:55:06 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:55:06 [Thread-13] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-13 12:55:06 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:55:06 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:55:06 [Thread-13] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:55:06 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2022-10-13 12:55:06 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2022-10-13 12:55:06 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-13 12:55:09 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-13 12:55:09 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - deregister  status: 200
+2022-10-13 12:55:09 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-13 12:55:09 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 15296 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-13 12:55:09 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-13 12:55:09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-13 12:55:09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-10-13 12:55:09 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5babc4e2-f0b0-3323-8f75-7d5bd9cf4d2d
+2022-10-13 12:55:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-13 12:55:09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:55:09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-13 12:55:09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-13 12:55:09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-13 12:55:09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 340 ms
+2022-10-13 12:55:09 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-13 12:55:09 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 12:55:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2022-10-13 12:55:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2022-10-13 12:55:09 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-13 12:55:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 12:55:09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:55:09 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-13 12:55:10 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-13 12:55:10 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-13 12:55:10 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-13 12:55:10 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-13 12:55:10 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-13 12:55:10 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665645910286 with initial instances count: 5
+2022-10-13 12:55:10 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-13 12:55:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665645910287, current=UP, previous=STARTING]
+2022-10-13 12:55:10 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:55:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:55:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-13 12:55:10 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-13 12:55:10 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:55:10 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 1.162 seconds (JVM running for 4595.005)
+2022-10-13 12:55:10 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-13 12:55:24 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-13 12:55:24 [Thread-19] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-13 12:55:24 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665645924750, current=DOWN, previous=UP]
+2022-10-13 12:55:24 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:55:24 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:55:24 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:55:24 [Thread-19] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-13 12:55:24 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:55:24 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:55:24 [Thread-19] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:55:24 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2022-10-13 12:55:24 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2022-10-13 12:55:24 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-13 12:55:27 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-13 12:55:27 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - deregister  status: 200
+2022-10-13 12:55:27 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-13 12:55:28 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 15296 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-13 12:55:28 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-13 12:55:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-13 12:55:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-10-13 12:55:28 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5babc4e2-f0b0-3323-8f75-7d5bd9cf4d2d
+2022-10-13 12:55:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-13 12:55:28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:55:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-13 12:55:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-13 12:55:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-13 12:55:28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 322 ms
+2022-10-13 12:55:28 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-13 12:55:28 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 12:55:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2022-10-13 12:55:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2022-10-13 12:55:28 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-13 12:55:28 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 12:55:28 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:55:28 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-13 12:55:28 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-13 12:55:28 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-13 12:55:29 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-13 12:55:29 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-13 12:55:29 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-13 12:55:29 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665645929053 with initial instances count: 5
+2022-10-13 12:55:29 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-13 12:55:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665645929054, current=UP, previous=STARTING]
+2022-10-13 12:55:29 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:55:29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:55:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-13 12:55:29 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-13 12:55:29 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:55:29 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 1.161 seconds (JVM running for 4613.787)
+2022-10-13 12:55:29 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-13 12:56:23 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-13 12:56:23 [Thread-25] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-13 12:56:23 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665645983556, current=DOWN, previous=UP]
+2022-10-13 12:56:23 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:56:23 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:56:23 [Thread-25] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:23 [Thread-25] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-13 12:56:23 [Thread-25] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:23 [Thread-25] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:23 [Thread-25] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:56:23 [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2022-10-13 12:56:23 [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2022-10-13 12:56:23 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-13 12:56:26 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-13 12:56:26 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - deregister  status: 200
+2022-10-13 12:56:26 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-13 12:56:26 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 15296 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-13 12:56:26 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-13 12:56:26 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-13 12:56:26 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2022-10-13 12:56:26 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5babc4e2-f0b0-3323-8f75-7d5bd9cf4d2d
+2022-10-13 12:56:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-13 12:56:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-13 12:56:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-13 12:56:27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-13 12:56:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 270 ms
+2022-10-13 12:56:27 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-13 12:56:27 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 12:56:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2022-10-13 12:56:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2022-10-13 12:56:27 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-13 12:56:27 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 12:56:27 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:56:27 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-13 12:56:27 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-13 12:56:27 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-13 12:56:27 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-13 12:56:27 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-13 12:56:27 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-13 12:56:27 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665645987482 with initial instances count: 5
+2022-10-13 12:56:27 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-13 12:56:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665645987483, current=UP, previous=STARTING]
+2022-10-13 12:56:27 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:56:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-13 12:56:27 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-13 12:56:27 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:56:27 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 0.898 seconds (JVM running for 4672.2)
+2022-10-13 12:56:27 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-13 12:56:49 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2022-10-13 12:56:49 [Thread-31] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-13 12:56:49 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665646009161, current=DOWN, previous=UP]
+2022-10-13 12:56:49 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:56:49 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:56:49 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:49 [Thread-31] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-13 12:56:49 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:49 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:49 [Thread-31] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:56:49 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2022-10-13 12:56:49 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2022-10-13 12:56:49 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-13 12:56:52 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-13 12:56:52 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - deregister  status: 200
+2022-10-13 12:56:52 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-13 12:56:52 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 15296 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-13 12:56:52 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-13 12:56:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-13 12:56:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-10-13 12:56:52 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5babc4e2-f0b0-3323-8f75-7d5bd9cf4d2d
+2022-10-13 12:56:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-13 12:56:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-13 12:56:52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-13 12:56:52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-13 12:56:52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 283 ms
+2022-10-13 12:56:52 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-13 12:56:52 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 12:56:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2022-10-13 12:56:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2022-10-13 12:56:52 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-13 12:56:52 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 12:56:52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:56:52 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-13 12:56:52 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-13 12:56:52 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-13 12:56:53 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-13 12:56:53 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-13 12:56:53 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-13 12:56:53 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665646013097 with initial instances count: 5
+2022-10-13 12:56:53 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-13 12:56:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665646013098, current=UP, previous=STARTING]
+2022-10-13 12:56:53 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:56:53 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-13 12:56:53 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-13 12:56:53 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:56:53 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 0.93 seconds (JVM running for 4697.815)
+2022-10-13 12:56:53 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-13 12:56:54 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-13 12:56:54 [Thread-37] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-13 12:56:54 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665646014290, current=DOWN, previous=UP]
+2022-10-13 12:56:54 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:56:54 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:56:54 [Thread-37] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:54 [Thread-37] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-13 12:56:54 [Thread-37] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:54 [Thread-37] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:54 [Thread-37] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:56:54 [Thread-37] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2022-10-13 12:56:54 [Thread-37] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2022-10-13 12:56:54 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-13 12:56:57 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-13 12:56:57 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - deregister  status: 200
+2022-10-13 12:56:57 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-13 12:56:57 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 15296 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-13 12:56:57 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-13 12:56:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-13 12:56:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-10-13 12:56:57 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5babc4e2-f0b0-3323-8f75-7d5bd9cf4d2d
+2022-10-13 12:56:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-13 12:56:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-13 12:56:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-13 12:56:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-13 12:56:57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 283 ms
+2022-10-13 12:56:57 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-13 12:56:57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 12:56:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2022-10-13 12:56:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2022-10-13 12:56:57 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-13 12:56:57 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 12:56:57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:56:57 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-13 12:56:58 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-13 12:56:58 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-13 12:56:58 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-13 12:56:58 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-13 12:56:58 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-13 12:56:58 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665646018290 with initial instances count: 5
+2022-10-13 12:56:58 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-13 12:56:58 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665646018291, current=UP, previous=STARTING]
+2022-10-13 12:56:58 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:56:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:56:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-13 12:56:58 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-13 12:56:58 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:56:58 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 0.945 seconds (JVM running for 4703.013)
+2022-10-13 12:56:58 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-13 12:57:04 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-13 12:57:04 [Thread-43] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-13 12:57:04 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665646024614, current=DOWN, previous=UP]
+2022-10-13 12:57:04 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:57:04 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:57:04 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:57:04 [Thread-43] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-13 12:57:04 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:57:04 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:57:04 [Thread-43] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:57:04 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2022-10-13 12:57:04 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2022-10-13 12:57:04 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-13 12:57:07 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-13 12:57:07 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - deregister  status: 200
+2022-10-13 12:57:07 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-13 12:57:07 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 15296 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-13 12:57:07 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5babc4e2-f0b0-3323-8f75-7d5bd9cf4d2d
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-13 12:57:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:57:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-13 12:57:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-13 12:57:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 288 ms
+2022-10-13 12:57:08 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-13 12:57:08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 12:57:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2022-10-13 12:57:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2022-10-13 12:57:08 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-13 12:57:08 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 12:57:08 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-13 12:57:08 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-13 12:57:08 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-13 12:57:08 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-13 12:57:08 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665646028805 with initial instances count: 5
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-13 12:57:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665646028808, current=UP, previous=STARTING]
+2022-10-13 12:57:08 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081: registering service...
+2022-10-13 12:57:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-13 12:57:08 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.7:emi-api:8081 - registration status: 204
+2022-10-13 12:57:08 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 1.129 seconds (JVM running for 4713.568)
+2022-10-13 12:57:08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

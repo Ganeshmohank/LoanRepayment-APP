@@ -1,0 +1,78 @@
+package com.capstone.model;
+
+import java.sql.Timestamp;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class paymentinfo {
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private int transaction_no;
+	private int loanaccno;
+	private int custid;
+	private Timestamp time_payment_atempted;
+	public int getAmountpaid() {
+		return amountpaid;
+	}
+	public void setAmountpaid(int amountpaid) {
+		this.amountpaid = amountpaid;
+	}
+	private String payment_status;
+	private int amountpaid;
+	public int getTransaction_no() {
+		return transaction_no;
+	}
+	public paymentinfo(int transaction_no, int loanaccno, int custid, Timestamp time_payment_atempted,
+			String payment_status, int amountpaid) {
+		super();
+		this.transaction_no = transaction_no;
+		this.loanaccno = loanaccno;
+		this.custid = custid;
+		this.time_payment_atempted = time_payment_atempted;
+		this.payment_status = payment_status;
+		this.amountpaid = amountpaid;
+	}
+	public void setTransaction_no(int transaction_no) {
+		this.transaction_no = transaction_no;
+	}
+	public int getLoanaccno() {
+		return loanaccno;
+	}
+	public void setLoanaccno(int loanaccno) {
+		this.loanaccno = loanaccno;
+	}
+	public int getCustid() {
+		return custid;
+	}
+	public void setCustid(int custid) {
+		this.custid = custid;
+	}
+	public Timestamp getTime_payment_atempted() {
+		return time_payment_atempted;
+	}
+	public void setTime_payment_atempted(Timestamp time_payment_atempted) {
+		this.time_payment_atempted = time_payment_atempted;
+	}
+	public String getPayment_status() {
+		return payment_status;
+	}
+	public void setPayment_status(String payment_status) {
+		this.payment_status = payment_status;
+	}
+	public paymentinfo() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "paymentinfo [transaction_no=" + transaction_no + ", loanaccno=" + loanaccno + ", custid=" + custid
+				+ ", time_payment_atempted=" + time_payment_atempted + ", payment_status=" + payment_status
+				+ ", amountpaid=" + amountpaid + "]";
+	}
+
+
+}

@@ -1,0 +1,11 @@
+package com.capstone.service;
+
+import java.util.List;
+import com.capstone.model.*;
+
+public interface SavingpaymenthistoryService {
+
+	public List<SavingPaymentHistory> getSavingsAccByCust(int custid);
+	public SavingPaymentHistory addTransaction(SavingPaymentHistory payment);
+	public SavingPaymentHistory getfindByTransactionNo(int tno);
+}

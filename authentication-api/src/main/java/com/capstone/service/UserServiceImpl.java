@@ -1,0 +1,19 @@
+package com.capstone.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capstone.model.Users;
+import com.capstone.repository.UserRepository;
+
+@Service
+public class UserServiceImpl implements UserService {
+	@Autowired
+	private UserRepository repo;
+	@Override
+	public Users findByCustidAndPassword(Integer custid, String password) {
+		// TODO Auto-generated method stub
+		return repo.findByCustidAndPassword(custid, password);
+	}
+
+}

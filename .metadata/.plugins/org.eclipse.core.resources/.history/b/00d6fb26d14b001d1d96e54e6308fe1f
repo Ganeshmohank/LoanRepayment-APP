@@ -1,0 +1,33 @@
+package com.capstone.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capstone.model.emi;
+import com.capstone.repository.emiRepository;
+@Service
+public class emiServiceImp implements emiService {
+	@Autowired
+	private emiRepository repo;
+
+	@Override
+	public List<emi> getEmi() {
+		List<emi> emilist = (List<emi>) repo.findAll();
+		return emilist;
+
+	}
+    @Override
+    public emi getEmiData(int accNumber) {
+    	System.out.println(repo.findByLoanaccno(accNumber));
+         return repo.findByLoanaccno(accNumber);
+    }
+	@Override
+	public emi updateEMI(emi emiObj) {
+		return repo.save(emiObj);
+		
+	}
+    
+
+}

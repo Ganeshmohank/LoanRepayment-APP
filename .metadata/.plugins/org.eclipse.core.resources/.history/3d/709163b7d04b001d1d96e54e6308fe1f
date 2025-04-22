@@ -1,0 +1,36 @@
+package com.capstone.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capstone.model.accountinfo;
+import com.capstone.repository.accountInfoRepository;
+@Service
+public class accountinfoServiceImpl implements accountinfoService{
+	@Autowired
+	private accountInfoRepository accrepo;
+
+	@Override
+	public List<accountinfo> getallaccountInfo() {
+		List<accountinfo> res= (List<accountinfo>) accrepo.findAll();
+		return res;
+	}
+
+    @Override
+    public List<accountinfo> getAcountsByCustId(int custid) {
+        // TODO Auto-generated method stub
+        return accrepo.findByCustid(custid);
+    }
+
+    @Override
+    public accountinfo updateBalence(accountinfo accObj) {
+        // TODO Auto-generated method stub
+        return accrepo.save(accObj);
+    }
+
+	
+	
+
+}

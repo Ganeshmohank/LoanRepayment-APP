@@ -1,0 +1,47 @@
+package com.capstone.controller;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.capstone.model.Loaninfo;
+import com.capstone.service.loanService;
+
+
+@RestController
+@RequestMapping("/api/loan")
+public class loanController {
+
+	@Autowired
+	private loanService loanSer;
+
+
+	@GetMapping("/getLoan")
+	public ResponseEntity<List<Loaninfo>> getloan() {
+		return new ResponseEntity<List<Loaninfo>>(loanSer.getLoan(),HttpStatus.OK);
+	}
+	@GetMapping("/validate")
+	public String validateAndReturnCustId(@RequestAttribute("currentuser")String custid) {
+	    return custid;
+	}
+	@GetMapping("/getLoanDetails/{accNumber}")
+	public ResponseEntity<Loaninfo> getloanDetails(@PathVariable int accNumber) {
+		return new ResponseEntity<Loaninfo>(loanSer.getLoanAccountDetails(accNumber),HttpStatus.OK);
+	}
+	@GetMapping("/getLoanDetailsbyCust/{custid}")
+	public ResponseEntity<List<Loaninfo>> getloanDetailsbyCust(@PathVariable int custid) {
+		return new ResponseEntity<List<Loaninfo>>(loanSer.getLoanAccByCust(custid),HttpStatus.OK);
+	}
+	@GetMapping("/getLoanDetails/{custid}/{accno}")
+	public ResponseEntity<Loaninfo> getloanDetailsofCustbyLoan(@PathVariable int custid,@PathVariable int accno) {
+		return new ResponseEntity<Loaninfo>(loanSer.getloanDetailsofCustbyLoan(custid,accno),HttpStatus.OK);
+	}
+
+}

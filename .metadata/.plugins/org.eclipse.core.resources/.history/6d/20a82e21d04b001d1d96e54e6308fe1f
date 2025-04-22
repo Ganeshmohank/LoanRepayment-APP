@@ -1,0 +1,7 @@
+package com.capstone.service;
+
+import com.capstone.model.users;
+
+public interface userService {
+	public users findByCustidAndPassword(Integer custid,String password);
+}

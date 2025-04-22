@@ -1,0 +1,302 @@
+2024-01-08 01:02:20 [restartedMain] INFO  c.capstone.AccountInfoApiApplication - Starting AccountInfoApiApplication using Java 17.0.9 on MOHAN with PID 30060 (C:\Users\mohan\Downloads\Work Resources\Natwest Capstone\frontend\spring-master\accountinfo-api\target\classes started by mohan in C:\Users\mohan\Downloads\Work Resources\Natwest Capstone\frontend\spring-master\accountinfo-api)
+2024-01-08 01:02:20 [restartedMain] INFO  c.capstone.AccountInfoApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-08 01:02:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-08 01:02:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-08 01:02:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-08 01:02:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135 ms. Found 1 JPA repository interfaces.
+2024-01-08 01:02:21 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8a42b0e0-01e8-3c2f-8d1e-2c898677ce1f
+2024-01-08 01:02:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-01-08 01:02:22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-01-08 01:02:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-08 01:02:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-01-08 01:02:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-08 01:02:22 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1953 ms
+2024-01-08 01:02:22 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-08 01:02:22 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2024-01-08 01:02:22 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-01-08 01:02:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-08 01:02:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-08 01:02:23 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-01-08 01:02:24 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-08 01:02:24 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-08 01:02:24 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-08 01:02:25 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-01-08 01:02:25 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-01-08 01:02:25 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-01-08 01:02:25 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-01-08 01:02:25 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-01-08 01:02:25 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1704655945778 with initial instances count: 3
+2024-01-08 01:02:25 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ACCOUNTINFO-API with eureka with status UP
+2024-01-08 01:02:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1704655945782, current=UP, previous=STARTING]
+2024-01-08 01:02:25 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ACCOUNTINFO-API/MOHAN:accountinfo-api:8082: registering service...
+2024-01-08 01:02:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-01-08 01:02:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-01-08 01:02:25 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8082
+2024-01-08 01:02:25 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ACCOUNTINFO-API/MOHAN:accountinfo-api:8082 - registration status: 204
+2024-01-08 01:02:25 [restartedMain] INFO  c.capstone.AccountInfoApiApplication - Started AccountInfoApiApplication in 5.9 seconds (JVM running for 6.957)
+2024-01-08 01:03:14 [DiscoveryClient-CacheRefreshExecutor-0] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:8761: Connection reset
+2024-01-08 01:03:14 [DiscoveryClient-CacheRefreshExecutor-0] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {}->http://localhost:8761
+2024-01-08 01:03:14 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/ACCOUNTINFO-API/MOHAN:accountinfo-api:8082": Connection reset; nested exception is java.net.SocketException: Connection reset stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/ACCOUNTINFO-API/MOHAN:accountinfo-api:8082": Connection reset; nested exception is java.net.SocketException: Connection reset
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:328)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 19 more
+
+2024-01-08 01:03:14 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/ACCOUNTINFO-API/MOHAN:accountinfo-api:8082": Connection reset; nested exception is java.net.SocketException: Connection reset
+2024-01-08 01:03:14 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2024-01-08 01:03:14 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ACCOUNTINFO-API/MOHAN:accountinfo-api:8082 - Re-registering apps/ACCOUNTINFO-API
+2024-01-08 01:03:14 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ACCOUNTINFO-API/MOHAN:accountinfo-api:8082: registering service...
+2024-01-08 01:03:14 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ACCOUNTINFO-API/MOHAN:accountinfo-api:8082 - registration status: 204
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@28fad5de
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@11cf1a37
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:44 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:03:44 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@51b8b40f
+2024-01-08 01:03:44 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:44 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:03:44 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5f7f5048
+2024-01-08 01:03:44 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:44 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=562164.2789999999], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=562164.2789999999], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:03:44 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=562164.2789999999], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:03:44 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=562164.2789999999], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:03:44 [http-nio-8082-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:44 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:44 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-01-08 01:03:44 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-01-08 01:03:44 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-01-08 01:03:44 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2024-01-08 01:03:44 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-01-08 01:03:44 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2024-01-08 01:03:44 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-01-08 01:03:44 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2024-01-08 01:03:52 [http-nio-8082-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:03:52 [http-nio-8082-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7e35cf68
+2024-01-08 01:03:52 [http-nio-8082-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:52 [http-nio-8082-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:03:52 [http-nio-8082-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@70f22ede
+2024-01-08 01:03:52 [http-nio-8082-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:52 [http-nio-8082-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=562164.2789999999], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:03:52 [http-nio-8082-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:52 [http-nio-8082-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=562164.2789999999], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:03:52 [http-nio-8082-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:57 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:03:57 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7602bd2d
+2024-01-08 01:03:57 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:57 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:03:57 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@78c54d9d
+2024-01-08 01:03:57 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:57 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=562164.2789999999], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:03:57 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:03:57 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=562164.2789999999], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:03:57 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:03 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:04:03 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6d5b6f5f
+2024-01-08 01:04:03 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:03 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:04:03 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@639c9c84
+2024-01-08 01:04:03 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:03 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=562164.2789999999], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:04:03 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:03 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=562164.2789999999], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:04:03 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:34 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:04:34 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3d947ef5
+2024-01-08 01:04:34 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:34 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:04:34 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@45ac8512
+2024-01-08 01:04:34 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:34 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.updateBalence() with arguments=accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998]
+2024-01-08 01:04:34 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:34 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.updateBalence() with arguments=accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998]
+2024-01-08 01:04:34 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:41 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:04:41 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@15a25393
+2024-01-08 01:04:41 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:41 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:04:41 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1b65af57
+2024-01-08 01:04:41 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:41 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:04:41 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:41 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:04:41 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:51 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:04:51 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7e67a44a
+2024-01-08 01:04:51 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:51 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:04:51 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@319d5fcd
+2024-01-08 01:04:51 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:51 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:04:51 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:51 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:04:51 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:51 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:04:51 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@75551c73
+2024-01-08 01:04:51 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:51 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:04:51 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7b92fca9
+2024-01-08 01:04:51 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:51 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:04:51 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:04:51 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:04:51 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:07:25 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-01-08 01:12:25 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-01-08 01:17:25 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-01-08 01:22:25 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-01-08 01:27:25 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-01-08 01:30:35 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:30:35 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1d8a8509
+2024-01-08 01:30:35 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:30:35 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:30:35 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4e238548
+2024-01-08 01:30:35 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:30:36 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:30:36 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:30:36 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:30:36 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:25 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-01-08 01:32:30 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:32:30 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@531dd413
+2024-01-08 01:32:30 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:30 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:32:30 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@396d62a3
+2024-01-08 01:32:30 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:30 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:30 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:30 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:30 [http-nio-8082-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:34 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:32:34 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@428e69f0
+2024-01-08 01:32:34 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:34 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:32:34 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@67bcdaae
+2024-01-08 01:32:34 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:34 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:34 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:34 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:34 [http-nio-8082-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:37 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:32:37 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5a86dffc
+2024-01-08 01:32:37 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:37 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:32:37 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2114fde2
+2024-01-08 01:32:37 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:37 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:37 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:37 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:37 [http-nio-8082-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:37 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:32:37 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3a775a23
+2024-01-08 01:32:37 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:37 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:32:37 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6d9ad4a1
+2024-01-08 01:32:37 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:37 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:37 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:37 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:37 [http-nio-8082-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:44 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:32:44 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@55fc9d91
+2024-01-08 01:32:44 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:44 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:32:44 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@192e7249
+2024-01-08 01:32:44 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:44 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:44 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:44 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:44 [http-nio-8082-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:44 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:32:44 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5f4f97f1
+2024-01-08 01:32:44 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:44 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:32:44 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1f1d512f
+2024-01-08 01:32:44 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:44 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:44 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:44 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:44 [http-nio-8082-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:52 [http-nio-8082-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:32:52 [http-nio-8082-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@f8f0e46
+2024-01-08 01:32:52 [http-nio-8082-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:52 [http-nio-8082-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:32:52 [http-nio-8082-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4a8d81d3
+2024-01-08 01:32:52 [http-nio-8082-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:52 [http-nio-8082-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:52 [http-nio-8082-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:52 [http-nio-8082-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:52 [http-nio-8082-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:52 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AccountInfoController
+2024-01-08 01:32:52 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@32c33f0e
+2024-01-08 01:32:52 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:52 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.AccountInfoServiceImpl
+2024-01-08 01:32:52 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@28d50b50
+2024-01-08 01:32:52 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:52 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.AccountInfoServiceImpl.getAcountsByCustId() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:52 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:32:52 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AccountInfoController.getsavingsAccount() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=557279.2119999998], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=7544.039000000003]]
+2024-01-08 01:32:52 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2024-01-08 01:37:25 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-01-08 01:42:25 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

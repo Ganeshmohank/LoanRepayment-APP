@@ -1,0 +1,178 @@
+2022-10-11 23:44:16 [restartedMain] INFO  com.capstone.LoanApiApplication - Starting LoanApiApplication using Java 17.0.2 on MOHAN with PID 26300 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\loan-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\loan-api)
+2022-10-11 23:44:16 [restartedMain] INFO  com.capstone.LoanApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-11 23:44:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-11 23:44:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-11 23:44:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-11 23:44:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 214 ms. Found 1 JPA repository interfaces.
+2022-10-11 23:44:18 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=45fe97d3-c3fe-391b-82f8-b9579b09bcd6
+2022-10-11 23:44:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-10-11 23:44:19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-11 23:44:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-11 23:44:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 23:44:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-11 23:44:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3090 ms
+2022-10-11 23:44:19 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-11 23:44:20 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-11 23:44:20 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-11 23:44:20 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-11 23:44:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-11 23:44:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-11 23:44:21 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-11 23:44:22 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-11 23:44:22 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 23:44:22 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-11 23:44:23 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-11 23:44:23 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-11 23:44:23 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-11 23:44:23 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-11 23:44:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-11 23:44:23 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 23:44:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-11 23:44:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-11 23:44:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-11 23:44:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-11 23:44:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-11 23:44:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-11 23:44:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-11 23:44:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-11 23:44:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-11 23:44:24 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-11 23:44:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665512064334 with initial instances count: 4
+2022-10-11 23:44:24 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application LOAN-API with eureka with status UP
+2022-10-11 23:44:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665512064337, current=UP, previous=STARTING]
+2022-10-11 23:44:24 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084: registering service...
+2022-10-11 23:44:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-10-11 23:44:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2022-10-11 23:44:24 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8084
+2022-10-11 23:44:24 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084 - registration status: 204
+2022-10-11 23:44:24 [restartedMain] INFO  com.capstone.LoanApiApplication - Started LoanApiApplication in 8.556 seconds (JVM running for 9.502)
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5ce38aac
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@14382ff9
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211032, category=Home, loan_amount=5000000.0, custid=202200003, interest_rate=6.7, tenure=10]
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211032, category=Home, loan_amount=5000000.0, custid=202200003, interest_rate=6.7, tenure=10],[]>
+2022-10-11 23:44:58 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 23:49:23 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 23:54:23 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 23:59:24 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 00:04:24 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 00:05:54 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-12 00:05:54 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@71add79
+2022-10-12 00:05:54 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:05:54 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-12 00:05:54 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@9dd23ea
+2022-10-12 00:05:54 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:05:54 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10]
+2022-10-12 00:05:54 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:05:54 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10],[]>
+2022-10-12 00:05:54 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:07:20 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-12 00:07:20 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@a0282c8
+2022-10-12 00:07:20 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:07:20 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-12 00:07:20 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5e32a07c
+2022-10-12 00:07:20 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:07:20 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10]
+2022-10-12 00:07:20 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:07:20 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10],[]>
+2022-10-12 00:07:20 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:09:24 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 00:14:24 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 00:15:00 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-12 00:15:00 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6899296c
+2022-10-12 00:15:00 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:15:00 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-12 00:15:00 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@665eda0f
+2022-10-12 00:15:00 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:15:00 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10]
+2022-10-12 00:15:00 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:15:00 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10],[]>
+2022-10-12 00:15:00 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:16:03 [http-nio-8084-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-12 00:16:03 [http-nio-8084-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@574aa420
+2022-10-12 00:16:03 [http-nio-8084-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:16:03 [http-nio-8084-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-12 00:16:03 [http-nio-8084-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@598d50b9
+2022-10-12 00:16:03 [http-nio-8084-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:16:03 [http-nio-8084-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10]
+2022-10-12 00:16:03 [http-nio-8084-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:16:03 [http-nio-8084-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10],[]>
+2022-10-12 00:16:03 [http-nio-8084-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:16:36 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-12 00:16:36 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@69471167
+2022-10-12 00:16:36 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:16:36 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-12 00:16:36 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@52bba7c0
+2022-10-12 00:16:36 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:16:36 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10]
+2022-10-12 00:16:36 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:16:36 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10],[]>
+2022-10-12 00:16:36 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:07 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-12 00:17:07 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@61a8c5db
+2022-10-12 00:17:07 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:07 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-12 00:17:07 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@28cfd69e
+2022-10-12 00:17:07 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:07 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10]
+2022-10-12 00:17:07 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:07 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10],[]>
+2022-10-12 00:17:07 [http-nio-8084-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:16 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-12 00:17:16 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5fb0ee8d
+2022-10-12 00:17:16 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:16 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-12 00:17:16 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2d5c5297
+2022-10-12 00:17:16 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:16 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10]
+2022-10-12 00:17:16 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:16 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10],[]>
+2022-10-12 00:17:16 [http-nio-8084-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:41 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-12 00:17:41 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7e17a2fd
+2022-10-12 00:17:41 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:41 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-12 00:17:41 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@474c2f7b
+2022-10-12 00:17:41 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:41 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10]
+2022-10-12 00:17:41 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:41 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10],[]>
+2022-10-12 00:17:41 [http-nio-8084-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:44 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-12 00:17:44 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1247f868
+2022-10-12 00:17:44 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:44 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-12 00:17:44 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@57457444
+2022-10-12 00:17:44 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:44 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10]
+2022-10-12 00:17:44 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:44 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10],[]>
+2022-10-12 00:17:44 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:53 [http-nio-8084-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-12 00:17:53 [http-nio-8084-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2456de6
+2022-10-12 00:17:53 [http-nio-8084-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:53 [http-nio-8084-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-12 00:17:53 [http-nio-8084-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4747e3ca
+2022-10-12 00:17:53 [http-nio-8084-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:53 [http-nio-8084-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10]
+2022-10-12 00:17:53 [http-nio-8084-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:17:53 [http-nio-8084-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10],[]>
+2022-10-12 00:17:53 [http-nio-8084-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:18:00 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-12 00:18:00 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7fb2237b
+2022-10-12 00:18:00 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:18:00 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-12 00:18:00 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7b8db855
+2022-10-12 00:18:00 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:18:00 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoanAccountDetails() with arguments=loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10]
+2022-10-12 00:18:00 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:18:00 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloanDetails() with arguments=<200 OK OK,loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10],[]>
+2022-10-12 00:18:00 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 00:19:24 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

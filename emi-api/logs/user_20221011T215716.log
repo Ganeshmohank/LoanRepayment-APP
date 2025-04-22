@@ -1,0 +1,848 @@
+2022-10-11 21:57:17 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 27824 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-11 21:57:17 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-11 21:57:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-11 21:57:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-11 21:57:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-11 21:57:19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 205 ms. Found 1 JPA repository interfaces.
+2022-10-11 21:57:19 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5babc4e2-f0b0-3323-8f75-7d5bd9cf4d2d
+2022-10-11 21:57:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-11 21:57:20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-11 21:57:20 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-11 21:57:20 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 21:57:20 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-11 21:57:20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2672 ms
+2022-10-11 21:57:20 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-11 21:57:21 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-11 21:57:21 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-11 21:57:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-11 21:57:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-11 21:57:22 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-11 21:57:22 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-11 21:57:22 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 21:57:23 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-11 21:57:23 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-11 21:57:23 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-11 21:57:24 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-11 21:57:24 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-11 21:57:24 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-11 21:57:24 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665505644799 with initial instances count: 2
+2022-10-11 21:57:24 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-11 21:57:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665505644803, current=UP, previous=STARTING]
+2022-10-11 21:57:24 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081: registering service...
+2022-10-11 21:57:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-11 21:57:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-11 21:57:24 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-11 21:57:24 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081 - registration status: 204
+2022-10-11 21:57:24 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 7.9 seconds (JVM running for 9.009)
+2022-10-11 21:58:12 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-11 21:58:12 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-11 21:58:12 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2022-10-11 21:58:13 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 21:58:13 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@16ce69e4
+2022-10-11 21:58:13 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 21:58:13 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 21:58:13 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4ab5735b
+2022-10-11 21:58:13 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 21:58:13 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmi() with arguments=[emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0], emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.0, upcomming_payment_date=2022-11-07, remaining_amount=110000.0], emi [s_no=3, loanaccno=202211021, loan_status=active, emi_amount=3117.0, upcomming_payment_date=2022-11-07, remaining_amount=200000.0], emi [s_no=4, loanaccno=202211022, loan_status=active, emi_amount=14673.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0], emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0], emi [s_no=6, loanaccno=202211032, loan_status=active, emi_amount=57284.0, upcomming_payment_date=2022-11-07, remaining_amount=5000000.0], emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0], emi [s_no=8, loanaccno=202211041, loan_status=active, emi_amount=9818.0, upcomming_payment_date=2022-11-07, remaining_amount=410000.0], emi [s_no=9, loanaccno=202211042, loan_status=active, emi_amount=9837.0, upcomming_payment_date=2022-11-07, remaining_amount=320000.0], emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0]]
+2022-10-11 21:58:13 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 21:58:13 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemi() with arguments=<200 OK OK,[emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0], emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.0, upcomming_payment_date=2022-11-07, remaining_amount=110000.0], emi [s_no=3, loanaccno=202211021, loan_status=active, emi_amount=3117.0, upcomming_payment_date=2022-11-07, remaining_amount=200000.0], emi [s_no=4, loanaccno=202211022, loan_status=active, emi_amount=14673.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0], emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0], emi [s_no=6, loanaccno=202211032, loan_status=active, emi_amount=57284.0, upcomming_payment_date=2022-11-07, remaining_amount=5000000.0], emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0], emi [s_no=8, loanaccno=202211041, loan_status=active, emi_amount=9818.0, upcomming_payment_date=2022-11-07, remaining_amount=410000.0], emi [s_no=9, loanaccno=202211042, loan_status=active, emi_amount=9837.0, upcomming_payment_date=2022-11-07, remaining_amount=320000.0], emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0]],[]>
+2022-10-11 21:58:13 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 21:58:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 21:58:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@f89ed4d
+2022-10-11 21:58:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 21:58:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 21:58:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@47f82811
+2022-10-11 21:58:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 21:58:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 21:58:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 21:58:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 21:58:18 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:02:24 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 22:02:33 [http-nio-8081-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:02:45 [http-nio-8081-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:03:20 [http-nio-8081-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:03:58 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:03:58 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3e315693
+2022-10-11 22:03:58 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:03:58 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:03:58 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@30f6bf25
+2022-10-11 22:03:58 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:03:58 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:03:58 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:03:58 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:03:58 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:04:26 [http-nio-8081-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:04:38 [http-nio-8081-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:05:02 [http-nio-8081-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:07:24 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 22:12:24 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 22:12:49 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-11 22:12:50 [Thread-1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-11 22:12:50 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665506570039, current=DOWN, previous=UP]
+2022-10-11 22:12:50 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081: registering service...
+2022-10-11 22:12:50 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081 - registration status: 204
+2022-10-11 22:12:50 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:12:50 [Thread-1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-11 22:12:50 [Thread-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-11 22:12:50 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:12:50 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:12:50 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 22:12:50 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-10-11 22:12:50 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-10-11 22:12:50 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-11 22:12:53 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-11 22:12:53 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081 - deregister  status: 200
+2022-10-11 22:12:53 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-11 22:12:54 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 27824 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-11 22:12:54 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-11 22:12:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-11 22:12:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2022-10-11 22:12:55 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=05828789-91e6-3305-b2cf-a69cb83688a4
+2022-10-11 22:12:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-11 22:12:55 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:12:55 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-11 22:12:55 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 22:12:55 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-11 22:12:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 836 ms
+2022-10-11 22:12:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-11 22:12:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-10-11 22:12:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-10-11 22:12:55 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-11 22:12:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-11 22:12:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 22:12:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-11 22:12:55 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-11 22:12:56 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-11 22:12:56 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-11 22:12:56 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-11 22:12:56 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-11 22:12:56 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665506576278 with initial instances count: 3
+2022-10-11 22:12:56 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-11 22:12:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665506576280, current=UP, previous=STARTING]
+2022-10-11 22:12:56 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081: registering service...
+2022-10-11 22:12:56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:12:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-11 22:12:56 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-11 22:12:56 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081 - registration status: 204
+2022-10-11 22:12:56 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 2.105 seconds (JVM running for 940.42)
+2022-10-11 22:12:56 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@aa139c8
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@326e7f4f
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:12:59 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:13:11 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:13:11 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1feb8a76
+2022-10-11 22:13:11 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:13:11 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:13:11 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@112c67fb
+2022-10-11 22:13:11 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:13:11 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:13:11 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:13:11 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:13:11 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:16:27 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:16:27 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3d4576fa
+2022-10-11 22:16:27 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:16:27 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:16:27 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7847ef36
+2022-10-11 22:16:27 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:16:27 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:16:27 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:16:27 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:16:27 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:17:56 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 22:22:56 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 22:24:19 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-11 22:24:20 [Thread-7] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-11 22:24:20 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665507260035, current=DOWN, previous=UP]
+2022-10-11 22:24:20 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081: registering service...
+2022-10-11 22:24:20 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081 - registration status: 204
+2022-10-11 22:24:20 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:24:20 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-11 22:24:20 [Thread-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-11 22:24:20 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:24:20 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:24:20 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 22:24:20 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-10-11 22:24:20 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-10-11 22:24:20 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-11 22:24:23 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-11 22:24:23 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081 - deregister  status: 200
+2022-10-11 22:24:23 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-11 22:24:24 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 27824 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-11 22:24:24 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-11 22:24:24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-11 22:24:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2022-10-11 22:24:25 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=05828789-91e6-3305-b2cf-a69cb83688a4
+2022-10-11 22:24:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-11 22:24:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:24:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-11 22:24:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 22:24:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-11 22:24:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1741 ms
+2022-10-11 22:24:26 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-11 22:24:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-10-11 22:24:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-10-11 22:24:26 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-11 22:24:27 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-11 22:24:27 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 22:24:27 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-11 22:24:27 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-11 22:24:28 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-11 22:24:28 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-11 22:24:28 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-11 22:24:28 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-11 22:24:28 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665507268719 with initial instances count: 3
+2022-10-11 22:24:28 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-11 22:24:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665507268722, current=UP, previous=STARTING]
+2022-10-11 22:24:28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:24:28 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081: registering service...
+2022-10-11 22:24:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-11 22:24:28 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-11 22:24:28 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081 - registration status: 204
+2022-10-11 22:24:28 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 4.97 seconds (JVM running for 1632.975)
+2022-10-11 22:24:28 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-11 22:25:13 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-11 22:25:13 [Thread-13] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-11 22:25:13 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665507313651, current=DOWN, previous=UP]
+2022-10-11 22:25:13 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081: registering service...
+2022-10-11 22:25:13 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081 - registration status: 204
+2022-10-11 22:25:13 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:25:13 [Thread-13] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-11 22:25:13 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:25:13 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:25:13 [Thread-13] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 22:25:13 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2022-10-11 22:25:13 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2022-10-11 22:25:13 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-11 22:25:16 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-11 22:25:16 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081 - deregister  status: 200
+2022-10-11 22:25:16 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-11 22:25:17 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 27824 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-11 22:25:17 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-11 22:25:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-11 22:25:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-10-11 22:25:17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=05828789-91e6-3305-b2cf-a69cb83688a4
+2022-10-11 22:25:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-11 22:25:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:25:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-11 22:25:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 22:25:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-11 22:25:17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 396 ms
+2022-10-11 22:25:17 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-11 22:25:17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2022-10-11 22:25:17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2022-10-11 22:25:17 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-11 22:25:17 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-11 22:25:17 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 22:25:17 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-11 22:25:17 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-11 22:25:17 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-11 22:25:18 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-11 22:25:18 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-11 22:25:18 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-11 22:25:18 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665507318163 with initial instances count: 3
+2022-10-11 22:25:18 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-11 22:25:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665507318165, current=UP, previous=STARTING]
+2022-10-11 22:25:18 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081: registering service...
+2022-10-11 22:25:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-11 22:25:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-11 22:25:18 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-11 22:25:18 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.0.4:emi-api:8081 - registration status: 204
+2022-10-11 22:25:18 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 1.341 seconds (JVM running for 1682.293)
+2022-10-11 22:25:18 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-11 22:27:37 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-11 22:27:37 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-11 22:27:37 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 60 ms
+2022-10-11 22:28:16 [http-nio-8081-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:30:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 22:32:33 [http-nio-8081-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:33:15 [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:33:33 [http-nio-8081-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:33:48 [http-nio-8081-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:33:56 [http-nio-8081-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:34:35 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:34:35 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@19619e7e
+2022-10-11 22:34:35 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:34:35 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:34:35 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@735894ab
+2022-10-11 22:34:35 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:34:35 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:34:35 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:34:35 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:34:35 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:34:40 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:34:40 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6cf67589
+2022-10-11 22:34:40 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:34:40 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:34:40 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@29f4e673
+2022-10-11 22:34:40 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:34:40 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:34:40 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:34:40 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:34:40 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:34:56 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:34:56 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4b51046c
+2022-10-11 22:34:56 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:34:56 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:34:56 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4596e376
+2022-10-11 22:34:56 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:34:56 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:34:56 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:34:56 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:34:56 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 22:35:25 [http-nio-8081-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:35:32 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:35:32 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@66f8c8f5
+2022-10-11 22:35:32 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:32 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:35:32 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@683f2a5a
+2022-10-11 22:35:32 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:32 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:35:32 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:32 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:35:32 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:35:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3c2b629a
+2022-10-11 22:35:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:35:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3814f1c7
+2022-10-11 22:35:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:35:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:35:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:57 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:35:57 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@34759c2b
+2022-10-11 22:35:57 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:57 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:35:57 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@717704c1
+2022-10-11 22:35:57 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:57 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:35:57 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:35:57 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:35:57 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:36:01 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:36:01 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@86b9f49
+2022-10-11 22:36:01 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:36:01 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:36:01 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@c540a9c
+2022-10-11 22:36:01 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:36:01 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:36:01 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:36:01 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:36:01 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:36:06 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-11 22:36:06 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6bd6f313
+2022-10-11 22:36:06 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:36:06 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-11 22:36:06 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2cc0ccbc
+2022-10-11 22:36:06 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:36:06 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0]
+2022-10-11 22:36:06 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:36:06 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0],[]>
+2022-10-11 22:36:06 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 22:38:50 [http-nio-8081-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 22:40:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

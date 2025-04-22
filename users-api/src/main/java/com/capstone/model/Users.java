@@ -1,0 +1,66 @@
+package com.capstone.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Users {
+
+	@Id
+	private int custid;
+	private String password;
+	private String email;
+	private String username;
+	
+	public Users() {
+		super();
+	}
+
+	public Users(int custid, String password, String email, String username) {
+		super();
+		this.custid = custid;
+		this.password = password;
+		this.email = email;
+		this.username = username;
+	}
+
+	@Override
+	public String toString() {
+		return "users [custid=" + custid + ", password=" + password + ", email=" + email + ", username=" + username
+				+ "]";
+	}
+
+	public int getCustid() {
+		return custid;
+	}
+
+	public void setCustid(int custid) {
+		this.custid = custid;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+}
+

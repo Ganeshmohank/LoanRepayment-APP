@@ -1,0 +1,21 @@
+package com.capstone.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.capstone.model.LoanInfo;
+
+@Repository
+public interface LoanRepository extends JpaRepository<LoanInfo,Integer>{
+
+	public LoanInfo findByLoanaccno(int accNumber);
+	
+	public List<LoanInfo> findAllByCustid(int custid);
+	public LoanInfo findByCustidAndLoanaccno(int custid, int accno);
+
+	
+}

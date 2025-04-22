@@ -1,0 +1,245 @@
+2022-10-10 21:27:19 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 14048 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-10 21:27:19 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-10 21:27:19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-10 21:27:19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-10 21:27:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-10 21:27:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2022-10-10 21:27:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-10-10 21:27:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-10 21:27:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-10 21:27:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-10 21:27:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-10 21:27:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1193 ms
+2022-10-10 21:27:21 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-10 21:27:21 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-10 21:27:21 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-10 21:27:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-10 21:27:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-10 21:27:22 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-10 21:27:22 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-10 21:27:22 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-10 21:27:22 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-10 21:27:23 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-10 21:27:23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-10-10 21:27:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-10 21:27:23 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 3.642 seconds (JVM running for 4.519)
+2022-10-10 21:27:55 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-10 21:27:55 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-10 21:27:55 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-10-10 21:27:55 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token missing or invalid] with root cause
+javax.servlet.ServletException: Token missing or invalid
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-10 21:28:10 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-10 21:28:10 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@62961942
+2022-10-10 21:28:10 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-10 21:28:10 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-10 21:28:10 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@c57fe74
+2022-10-10 21:28:10 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-10 21:28:11 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmi() with arguments=[emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0], emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.0, upcomming_payment_date=2022-11-07, remaining_amount=110000.0], emi [s_no=3, loanaccno=202211021, loan_status=active, emi_amount=3117.0, upcomming_payment_date=2022-11-07, remaining_amount=200000.0], emi [s_no=4, loanaccno=202211022, loan_status=active, emi_amount=14673.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0], emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0], emi [s_no=6, loanaccno=202211032, loan_status=active, emi_amount=57284.0, upcomming_payment_date=2022-11-07, remaining_amount=5000000.0], emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0], emi [s_no=8, loanaccno=202211041, loan_status=active, emi_amount=9818.0, upcomming_payment_date=2022-11-07, remaining_amount=410000.0], emi [s_no=9, loanaccno=202211042, loan_status=active, emi_amount=9837.0, upcomming_payment_date=2022-11-07, remaining_amount=320000.0], emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0]]
+2022-10-10 21:28:11 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-10 21:28:11 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemi() with arguments=<200 OK OK,[emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0], emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.0, upcomming_payment_date=2022-11-07, remaining_amount=110000.0], emi [s_no=3, loanaccno=202211021, loan_status=active, emi_amount=3117.0, upcomming_payment_date=2022-11-07, remaining_amount=200000.0], emi [s_no=4, loanaccno=202211022, loan_status=active, emi_amount=14673.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0], emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0], emi [s_no=6, loanaccno=202211032, loan_status=active, emi_amount=57284.0, upcomming_payment_date=2022-11-07, remaining_amount=5000000.0], emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0], emi [s_no=8, loanaccno=202211041, loan_status=active, emi_amount=9818.0, upcomming_payment_date=2022-11-07, remaining_amount=410000.0], emi [s_no=9, loanaccno=202211042, loan_status=active, emi_amount=9837.0, upcomming_payment_date=2022-11-07, remaining_amount=320000.0], emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0]],[]>
+2022-10-10 21:28:11 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-10 21:29:02 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-10 21:29:02 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2022-10-10 21:29:02 [Thread-1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-10 21:29:02 [Thread-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-10 21:29:02 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2022-10-10 21:29:02 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2022-10-10 21:29:02 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-10 21:29:02 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-10-10 21:29:02 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-10-10 21:29:02 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 14048 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-10 21:29:02 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-10 21:29:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-10 21:29:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-10-10 21:29:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-10-10 21:29:02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-10 21:29:02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-10 21:29:02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-10 21:29:02 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-10 21:29:02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 226 ms
+2022-10-10 21:29:02 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-10 21:29:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-10-10 21:29:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-10-10 21:29:02 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-10 21:29:02 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-10 21:29:02 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-10 21:29:03 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-10 21:29:03 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-10 21:29:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-10-10 21:29:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-10 21:29:03 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 0.548 seconds (JVM running for 104.441)
+2022-10-10 21:46:29 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-10 21:46:29 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-10 21:46:29 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 86 ms
+2022-10-10 21:46:30 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token expired] with root cause
+javax.servlet.ServletException: Token expired
+	at com.capstone.filter.emiFilter.doFilter(emiFilter.java:58)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-10 21:46:58 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-10 21:46:58 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@41d1c623
+2022-10-10 21:46:58 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-10 21:46:58 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-10 21:46:58 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@15fa4523
+2022-10-10 21:46:58 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-10 21:46:58 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmi() with arguments=[emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0], emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.0, upcomming_payment_date=2022-11-07, remaining_amount=110000.0], emi [s_no=3, loanaccno=202211021, loan_status=active, emi_amount=3117.0, upcomming_payment_date=2022-11-07, remaining_amount=200000.0], emi [s_no=4, loanaccno=202211022, loan_status=active, emi_amount=14673.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0], emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0], emi [s_no=6, loanaccno=202211032, loan_status=active, emi_amount=57284.0, upcomming_payment_date=2022-11-07, remaining_amount=5000000.0], emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0], emi [s_no=8, loanaccno=202211041, loan_status=active, emi_amount=9818.0, upcomming_payment_date=2022-11-07, remaining_amount=410000.0], emi [s_no=9, loanaccno=202211042, loan_status=active, emi_amount=9837.0, upcomming_payment_date=2022-11-07, remaining_amount=320000.0], emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0]]
+2022-10-10 21:46:58 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-10 21:46:58 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemi() with arguments=<200 OK OK,[emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0], emi [s_no=2, loanaccno=202211012, loan_status=active, emi_amount=4762.0, upcomming_payment_date=2022-11-07, remaining_amount=110000.0], emi [s_no=3, loanaccno=202211021, loan_status=active, emi_amount=3117.0, upcomming_payment_date=2022-11-07, remaining_amount=200000.0], emi [s_no=4, loanaccno=202211022, loan_status=active, emi_amount=14673.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0], emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0], emi [s_no=6, loanaccno=202211032, loan_status=active, emi_amount=57284.0, upcomming_payment_date=2022-11-07, remaining_amount=5000000.0], emi [s_no=7, loanaccno=202211033, loan_status=active, emi_amount=10271.0, upcomming_payment_date=2022-11-07, remaining_amount=350000.0], emi [s_no=8, loanaccno=202211041, loan_status=active, emi_amount=9818.0, upcomming_payment_date=2022-11-07, remaining_amount=410000.0], emi [s_no=9, loanaccno=202211042, loan_status=active, emi_amount=9837.0, upcomming_payment_date=2022-11-07, remaining_amount=320000.0], emi [s_no=10, loanaccno=202211051, loan_status=active, emi_amount=11973.0, upcomming_payment_date=2022-11-07, remaining_amount=500000.0]],[]>
+2022-10-10 21:46:58 [http-nio-8080-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-10 22:36:52 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-10 22:36:53 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2022-10-10 22:36:53 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-10 22:36:53 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-10 22:36:53 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2022-10-10 22:36:53 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2022-10-10 22:36:53 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-10 22:36:53 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-10-10 22:36:53 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-10-10 22:36:54 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 14048 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-10 22:36:54 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-10 22:36:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-10 22:36:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-10-10 22:36:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-10-10 22:36:55 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-10 22:36:55 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-10 22:36:55 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-10 22:36:55 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-10 22:36:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 600 ms
+2022-10-10 22:36:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-10 22:36:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-10-10 22:36:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-10-10 22:36:55 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-10 22:36:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-10 22:36:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-10 22:36:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-10 22:36:56 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-10 22:36:56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-10-10 22:36:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-10 22:36:56 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 1.729 seconds (JVM running for 4177.378)
+2022-10-10 22:36:56 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-10 22:37:02 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-10 22:37:02 [Thread-9] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2022-10-10 22:37:02 [Thread-9] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-10 22:37:02 [Thread-9] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2022-10-10 22:37:02 [Thread-9] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2022-10-10 22:37:02 [Thread-9] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-10 22:37:02 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2022-10-10 22:37:02 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2022-10-10 22:37:03 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 14048 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-10 22:37:03 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-10 22:37:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-10 22:37:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2022-10-10 22:37:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-10-10 22:37:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-10 22:37:03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-10 22:37:03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-10 22:37:03 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-10 22:37:03 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 635 ms
+2022-10-10 22:37:03 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-10 22:37:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2022-10-10 22:37:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2022-10-10 22:37:03 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-10 22:37:04 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-10 22:37:04 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-10 22:37:04 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-10 22:37:04 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-10 22:37:04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-10-10 22:37:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-10 22:37:04 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 1.374 seconds (JVM running for 4185.682)
+2022-10-10 22:37:04 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-10 23:51:49 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-10 23:51:49 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2022-10-10 23:51:49 [Thread-13] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-10 23:51:49 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2022-10-10 23:51:49 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2022-10-10 23:51:49 [Thread-13] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-10 23:51:49 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2022-10-10 23:51:49 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2022-10-10 23:51:50 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.2 on MOHAN with PID 14048 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\emi-api)
+2022-10-10 23:51:50 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-10 23:51:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-10 23:51:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-10-10 23:51:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-10 23:51:50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-10 23:51:50 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-10 23:51:50 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-10 23:51:50 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-10 23:51:50 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 350 ms
+2022-10-10 23:51:50 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-10 23:51:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2022-10-10 23:51:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2022-10-10 23:51:50 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-10 23:51:50 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-10 23:51:50 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-10 23:51:51 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-10 23:51:51 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-10 23:51:51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-10 23:51:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-10 23:51:51 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 0.954 seconds (JVM running for 8672.56)
+2022-10-10 23:52:00 [RMI TCP Connection(190)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-10-10 23:52:00 [RMI TCP Connection(190)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-10 23:52:00 [RMI TCP Connection(190)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-10 23:52:00 [RMI TCP Connection(190)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-10 23:52:00 [RMI TCP Connection(190)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-10 23:52:00 [RMI TCP Connection(190)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-10 23:52:00 [RMI TCP Connection(190)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2022-10-10 23:52:01 [RMI TCP Connection(190)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.

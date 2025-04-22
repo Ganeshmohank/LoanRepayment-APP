@@ -1,0 +1,223 @@
+2022-10-15 12:10:12 [restartedMain] INFO  c.c.AuthenticationApiApplication - Starting AuthenticationApiApplication using Java 17.0.2 on MOHAN with PID 16252 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\authentication-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\authentication-api)
+2022-10-15 12:10:12 [restartedMain] INFO  c.c.AuthenticationApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-15 12:10:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-15 12:10:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-15 12:10:13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-15 12:10:13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interfaces.
+2022-10-15 12:10:13 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=20fbd41e-9591-323c-a48b-adc1d5296ce3
+2022-10-15 12:10:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2022-10-15 12:10:14 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2022-10-15 12:10:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-15 12:10:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-15 12:10:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-15 12:10:14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1679 ms
+2022-10-15 12:10:14 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-15 12:10:14 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-15 12:10:15 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-15 12:10:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-15 12:10:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-15 12:10:15 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-15 12:10:16 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-15 12:10:16 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-15 12:10:16 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-15 12:10:17 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-15 12:10:17 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-15 12:10:17 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-15 12:10:18 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-15 12:10:18 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-15 12:10:18 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665816018515 with initial instances count: 2
+2022-10-15 12:10:18 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application AUTHENTICATION-API with eureka with status UP
+2022-10-15 12:10:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665816018522, current=UP, previous=STARTING]
+2022-10-15 12:10:18 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTHENTICATION-API/192.168.0.8:authentication-api:8085: registering service...
+2022-10-15 12:10:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2022-10-15 12:10:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2022-10-15 12:10:18 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8085
+2022-10-15 12:10:18 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTHENTICATION-API/192.168.0.8:authentication-api:8085 - registration status: 204
+2022-10-15 12:10:18 [restartedMain] INFO  c.c.AuthenticationApiApplication - Started AuthenticationApiApplication in 6.315 seconds (JVM running for 7.329)
+2022-10-15 12:15:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 12:20:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 12:25:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 12:30:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 12:35:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 12:40:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 12:45:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 12:50:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 12:55:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:00:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:02:40 [http-nio-8085-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-15 13:02:40 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-15 13:02:41 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 74 ms
+2022-10-15 13:02:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 13:02:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@71f6c690
+2022-10-15 13:02:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:02:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 13:02:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@73be0111
+2022-10-15 13:02:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:02:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200005, password=Natwest@123, username=NATWEST5, email=natwest5@gmail.com]
+2022-10-15 13:02:41 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:02:42 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDUiLCJpYXQiOjE2NjU4MTkxNjEsImV4cCI6MTY2NTgyMjc2MX0.NwRT7Q5WDvTA2uDNMIg70L9LnOnQTPcC8gMLJqyRwIE},[]>
+2022-10-15 13:02:42 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:05:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:10:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:15:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:20:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:25:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:30:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:35:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:40:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:40:24 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 13:40:24 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@14ec8ef1
+2022-10-15 13:40:24 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:40:24 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 13:40:24 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4a616cf9
+2022-10-15 13:40:24 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:40:24 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200001, password=Natwest@123, username=NATWEST1, email=natwest1@gmail.com]
+2022-10-15 13:40:24 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:40:24 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDEiLCJpYXQiOjE2NjU4MjE0MjQsImV4cCI6MTY2NTgyNTAyNH0.VuokVr3NtpEiB6peQCZPNlgRDE4X8zFq3s_bR3wr-_I},[]>
+2022-10-15 13:40:24 [http-nio-8085-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:41:10 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 13:41:10 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@22c6a44d
+2022-10-15 13:41:10 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:41:10 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 13:41:10 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2c014e65
+2022-10-15 13:41:10 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:41:10 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200005, password=Natwest@123, username=NATWEST5, email=natwest5@gmail.com]
+2022-10-15 13:41:10 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:41:10 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDUiLCJpYXQiOjE2NjU4MjE0NzAsImV4cCI6MTY2NTgyNTA3MH0.95Lnly9YbK1u8w99BEVvo62ch1qn0sCSQalBKvDnWk4},[]>
+2022-10-15 13:41:10 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:44:24 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 13:44:24 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@65f6f8d6
+2022-10-15 13:44:24 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:44:24 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 13:44:24 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6b311a18
+2022-10-15 13:44:24 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:44:24 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200005, password=Natwest@123, username=NATWEST5, email=natwest5@gmail.com]
+2022-10-15 13:44:24 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:44:24 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDUiLCJpYXQiOjE2NjU4MjE2NjQsImV4cCI6MTY2NTgyNTI2NH0.TmsBBPr_Y3jH5K-KQxO7R4JW8ICqkwvnCGxUzgcKZ1g},[]>
+2022-10-15 13:44:24 [http-nio-8085-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:44:50 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 13:44:50 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7c4aef8e
+2022-10-15 13:44:50 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:44:50 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 13:44:50 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@728d1e77
+2022-10-15 13:44:50 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:44:50 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200005, password=Natwest@123, username=NATWEST5, email=natwest5@gmail.com]
+2022-10-15 13:44:50 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:44:50 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDUiLCJpYXQiOjE2NjU4MjE2OTAsImV4cCI6MTY2NTgyNTI5MH0.cu0UvS2BGOm68vXkuH1KIW5pdIuydiY1XxpsPXzEQy4},[]>
+2022-10-15 13:44:50 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:45:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:47:10 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 13:47:10 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6ab0efec
+2022-10-15 13:47:10 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:47:10 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 13:47:10 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2e0c75e5
+2022-10-15 13:47:10 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:47:10 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200005, password=Natwest@123, username=NATWEST5, email=natwest5@gmail.com]
+2022-10-15 13:47:10 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:47:10 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDUiLCJpYXQiOjE2NjU4MjE4MzAsImV4cCI6MTY2NTgyNTQzMH0.G5FFTZbHISCMqb4pYuUYsSwbxtGSSHDRqXKpMM0nKFk},[]>
+2022-10-15 13:47:10 [http-nio-8085-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:50:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 13:55:03 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 13:55:03 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@24c20c0e
+2022-10-15 13:55:03 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:55:03 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 13:55:03 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2a05f6e6
+2022-10-15 13:55:03 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:55:03 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200005, password=Natwest@123, username=NATWEST5, email=natwest5@gmail.com]
+2022-10-15 13:55:03 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:55:03 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDUiLCJpYXQiOjE2NjU4MjIzMDMsImV4cCI6MTY2NTgyNTkwM30.FJapY82dRag-uyRVIVzcMRG1_qwpRatneIkDin9MZYo},[]>
+2022-10-15 13:55:03 [http-nio-8085-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 13:55:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:00:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:05:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:06:00 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 14:06:00 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@28211ab
+2022-10-15 14:06:00 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:06:00 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 14:06:00 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@b9bfe38
+2022-10-15 14:06:00 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:06:01 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200005, password=Natwest@123, username=NATWEST5, email=natwest5@gmail.com]
+2022-10-15 14:06:01 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:06:01 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDUiLCJpYXQiOjE2NjU4MjI5NjEsImV4cCI6MTY2NTgyNjU2MX0.MCO4noEgsaNmF2eTwPgDLvHT8J2QcSqZe-ISLI3-OW0},[]>
+2022-10-15 14:06:01 [http-nio-8085-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:10:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:15:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:15:36 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 14:15:36 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@bae3b
+2022-10-15 14:15:36 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:15:36 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 14:15:36 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@ecc404a
+2022-10-15 14:15:36 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:15:36 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200005, password=Natwest@123, username=NATWEST5, email=natwest5@gmail.com]
+2022-10-15 14:15:36 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:15:36 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDUiLCJpYXQiOjE2NjU4MjM1MzYsImV4cCI6MTY2NTgyNzEzNn0.tHc1wwH3Y8bdP463l2caEzJkHb3V4HSWzzcD46pLejA},[]>
+2022-10-15 14:15:36 [http-nio-8085-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:17:16 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 14:17:16 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@269ee6a8
+2022-10-15 14:17:16 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:17:16 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 14:17:16 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6f99a48c
+2022-10-15 14:17:16 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:17:16 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200005, password=Natwest@123, username=NATWEST5, email=natwest5@gmail.com]
+2022-10-15 14:17:16 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:17:16 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDUiLCJpYXQiOjE2NjU4MjM2MzYsImV4cCI6MTY2NTgyNzIzNn0.XtVuLTXDAfBIznG-5r4CAU4q-o03au_LS_4m_m8BP_8},[]>
+2022-10-15 14:17:16 [http-nio-8085-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:17:45 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 14:17:45 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7aaa2204
+2022-10-15 14:17:45 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:17:45 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 14:17:45 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3fa8b335
+2022-10-15 14:17:45 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:17:45 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200001, password=Natwest@123, username=NATWEST1, email=natwest1@gmail.com]
+2022-10-15 14:17:45 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:17:45 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDEiLCJpYXQiOjE2NjU4MjM2NjUsImV4cCI6MTY2NTgyNzI2NX0.vl5l6L09t9fBXc-V4FDCLytPb5dVBTVPRBpoQrVyR38},[]>
+2022-10-15 14:17:45 [http-nio-8085-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:19:43 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.AuthenticationController
+2022-10-15 14:19:43 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3a22463f
+2022-10-15 14:19:43 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:19:43 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.UserServiceImpl
+2022-10-15 14:19:43 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@34e5af0b
+2022-10-15 14:19:43 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:19:43 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.UserServiceImpl.findByCustidAndPassword() with arguments=users [custid=202200001, password=Natwest@123, username=NATWEST1, email=natwest1@gmail.com]
+2022-10-15 14:19:43 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:19:43 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.AuthenticationController.login() with arguments=<200 OK OK,{message=User successfully logged in, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDIyMDAwMDEiLCJpYXQiOjE2NjU4MjM3ODMsImV4cCI6MTY2NTgyNzM4M30.ta3OzOhVtjkFnseSThIxfukxt_iBkbnbTowi47_dQ7E},[]>
+2022-10-15 14:19:43 [http-nio-8085-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-15 14:20:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:25:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:30:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:35:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:40:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:45:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:50:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 14:55:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 15:00:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 15:05:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 15:10:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 15:15:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 15:20:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 15:25:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 15:30:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 15:35:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 15:40:18 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-15 15:42:44 [RMI TCP Connection(222)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-10-15 15:42:44 [RMI TCP Connection(222)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application AUTHENTICATION-API with eureka with status DOWN
+2022-10-15 15:42:44 [RMI TCP Connection(222)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665828764732, current=DOWN, previous=UP]
+2022-10-15 15:42:44 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTHENTICATION-API/192.168.0.8:authentication-api:8085: registering service...
+2022-10-15 15:42:45 [RMI TCP Connection(222)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8085"]
+2022-10-15 15:42:45 [RMI TCP Connection(222)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-15 15:42:45 [RMI TCP Connection(222)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-15 15:42:45 [RMI TCP Connection(222)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8085"]
+2022-10-15 15:42:45 [RMI TCP Connection(222)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8085"]
+2022-10-15 15:42:45 [RMI TCP Connection(222)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-15 15:42:45 [RMI TCP Connection(222)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...

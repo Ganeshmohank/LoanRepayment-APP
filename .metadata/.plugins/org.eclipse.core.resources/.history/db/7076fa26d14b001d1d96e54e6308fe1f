@@ -1,0 +1,12 @@
+package com.capstone.service;
+
+import java.util.List;
+
+import com.capstone.model.emi;
+
+public interface emiService {
+
+	public List<emi> getEmi();
+	public emi getEmiData(int accNumber);
+	public emi updateEMI(emi emiObj);
+}

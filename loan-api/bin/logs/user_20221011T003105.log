@@ -1,0 +1,287 @@
+2022-10-11 00:31:06 [restartedMain] INFO  com.capstone.LoanApiApplication - Starting LoanApiApplication using Java 17.0.2 on MOHAN with PID 18564 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\loan-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\loan-api)
+2022-10-11 00:31:06 [restartedMain] INFO  com.capstone.LoanApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-11 00:31:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-11 00:31:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-11 00:31:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-11 00:31:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 117 ms. Found 1 JPA repository interfaces.
+2022-10-11 00:31:07 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=250f77dd-cc10-32c2-bc49-2232d550fe12
+2022-10-11 00:31:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-10-11 00:31:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-11 00:31:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-11 00:31:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 00:31:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-11 00:31:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1548 ms
+2022-10-11 00:31:08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-11 00:31:08 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-11 00:31:08 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-11 00:31:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-11 00:31:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-11 00:31:08 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-11 00:31:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-11 00:31:09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 00:31:09 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-11 00:31:09 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-11 00:31:10 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-11 00:31:10 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-11 00:31:10 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-11 00:31:10 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-11 00:31:10 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665428470667 with initial instances count: 4
+2022-10-11 00:31:10 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application LOAN-API with eureka with status UP
+2022-10-11 00:31:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665428470670, current=UP, previous=STARTING]
+2022-10-11 00:31:10 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084: registering service...
+2022-10-11 00:31:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-10-11 00:31:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2022-10-11 00:31:10 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8084
+2022-10-11 00:31:10 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084 - registration status: 204
+2022-10-11 00:31:10 [restartedMain] INFO  com.capstone.LoanApiApplication - Started LoanApiApplication in 4.614 seconds (JVM running for 5.674)
+2022-10-11 00:36:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 00:36:19 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-11 00:36:19 [Thread-1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application LOAN-API with eureka with status DOWN
+2022-10-11 00:36:19 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665428779210, current=DOWN, previous=UP]
+2022-10-11 00:36:19 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084: registering service...
+2022-10-11 00:36:19 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084 - registration status: 204
+2022-10-11 00:36:19 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8084"]
+2022-10-11 00:36:19 [Thread-1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-11 00:36:19 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8084"]
+2022-10-11 00:36:19 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8084"]
+2022-10-11 00:36:19 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 00:36:19 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-10-11 00:36:19 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-10-11 00:36:19 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-11 00:36:22 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-11 00:36:22 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084 - deregister  status: 200
+2022-10-11 00:36:22 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-11 00:36:22 [restartedMain] INFO  com.capstone.LoanApiApplication - Starting LoanApiApplication using Java 17.0.2 on MOHAN with PID 18564 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\loan-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\loan-api)
+2022-10-11 00:36:22 [restartedMain] INFO  com.capstone.LoanApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-11 00:36:22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-11 00:36:22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-10-11 00:36:22 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=250f77dd-cc10-32c2-bc49-2232d550fe12
+2022-10-11 00:36:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-10-11 00:36:22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-11 00:36:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-11 00:36:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 00:36:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-11 00:36:22 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 300 ms
+2022-10-11 00:36:22 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-11 00:36:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-10-11 00:36:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-10-11 00:36:22 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-11 00:36:22 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-11 00:36:22 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 00:36:22 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-11 00:36:23 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-11 00:36:23 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-11 00:36:23 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-11 00:36:23 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-11 00:36:23 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-11 00:36:23 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665428783350 with initial instances count: 6
+2022-10-11 00:36:23 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application LOAN-API with eureka with status UP
+2022-10-11 00:36:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665428783351, current=UP, previous=STARTING]
+2022-10-11 00:36:23 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084: registering service...
+2022-10-11 00:36:23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-10-11 00:36:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2022-10-11 00:36:23 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8084
+2022-10-11 00:36:23 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084 - registration status: 204
+2022-10-11 00:36:23 [restartedMain] INFO  com.capstone.LoanApiApplication - Started LoanApiApplication in 1.056 seconds (JVM running for 318.32)
+2022-10-11 00:36:23 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-11 00:41:23 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 00:46:23 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 00:51:23 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 00:51:42 [DiscoveryClient-CacheRefreshExecutor-0] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:8761: Connection reset
+2022-10-11 00:51:42 [DiscoveryClient-CacheRefreshExecutor-0] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {}->http://localhost:8761
+2022-10-11 00:51:42 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/LOAN-API/192.168.0.4:loan-api:8084": Connection reset; nested exception is java.net.SocketException: Connection reset stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/LOAN-API/192.168.0.4:loan-api:8084": Connection reset; nested exception is java.net.SocketException: Connection reset
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 19 more
+
+2022-10-11 00:51:42 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/LOAN-API/192.168.0.4:loan-api:8084": Connection reset; nested exception is java.net.SocketException: Connection reset
+2022-10-11 00:51:42 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2022-10-11 00:51:42 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084 - Re-registering apps/LOAN-API
+2022-10-11 00:51:42 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084: registering service...
+2022-10-11 00:51:42 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084 - registration status: 204
+2022-10-11 00:52:12 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-11 00:52:12 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-11 00:52:12 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-11 00:52:12 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-11 00:52:12 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-11 00:52:12 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2022-10-11 00:52:12 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-11 00:52:12 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-11 00:53:54 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-11 00:53:54 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-11 00:53:54 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 58 ms
+2022-10-11 00:53:55 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-11 00:53:55 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@27cb54ac
+2022-10-11 00:53:55 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 00:53:55 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.validateAndReturnCustId() with arguments=202200001
+2022-10-11 00:53:55 [http-nio-8084-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 00:54:05 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-11 00:54:05 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2a7f1c2b
+2022-10-11 00:54:05 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 00:54:05 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-11 00:54:05 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@24b8e714
+2022-10-11 00:54:05 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 00:54:06 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoan() with arguments=[loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10], loan [loanaccno=202211012, category=Vehicle, loan_amount=110000.0, custid=202200001, interest_rate=3.7, tenure=2], loan [loanaccno=202211021, category=Personal, loan_amount=200000.0, custid=202200002, interest_rate=8.0, tenure=7], loan [loanaccno=202211022, category=Vehicle, loan_amount=500000.0, custid=202200002, interest_rate=3.6, tenure=3], loan [loanaccno=202211031, category=Personal, loan_amount=210000.0, custid=202200003, interest_rate=8.0, tenure=5], loan [loanaccno=202211032, category=Home, loan_amount=5000000.0, custid=202200003, interest_rate=6.7, tenure=10], loan [loanaccno=202211033, category=Vehicle, loan_amount=350000.0, custid=202200003, interest_rate=3.6, tenure=3], loan [loanaccno=202211041, category=Personal, loan_amount=410000.0, custid=202200004, interest_rate=7.0, tenure=4], loan [loanaccno=202211042, category=Home, loan_amount=320000.0, custid=202200004, interest_rate=6.7, tenure=3], loan [loanaccno=202211051, category=Personal, loan_amount=500000.0, custid=202200005, interest_rate=7.0, tenure=4]]
+2022-10-11 00:54:06 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 00:54:06 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloan() with arguments=<200 OK OK,[loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10], loan [loanaccno=202211012, category=Vehicle, loan_amount=110000.0, custid=202200001, interest_rate=3.7, tenure=2], loan [loanaccno=202211021, category=Personal, loan_amount=200000.0, custid=202200002, interest_rate=8.0, tenure=7], loan [loanaccno=202211022, category=Vehicle, loan_amount=500000.0, custid=202200002, interest_rate=3.6, tenure=3], loan [loanaccno=202211031, category=Personal, loan_amount=210000.0, custid=202200003, interest_rate=8.0, tenure=5], loan [loanaccno=202211032, category=Home, loan_amount=5000000.0, custid=202200003, interest_rate=6.7, tenure=10], loan [loanaccno=202211033, category=Vehicle, loan_amount=350000.0, custid=202200003, interest_rate=3.6, tenure=3], loan [loanaccno=202211041, category=Personal, loan_amount=410000.0, custid=202200004, interest_rate=7.0, tenure=4], loan [loanaccno=202211042, category=Home, loan_amount=320000.0, custid=202200004, interest_rate=6.7, tenure=3], loan [loanaccno=202211051, category=Personal, loan_amount=500000.0, custid=202200005, interest_rate=7.0, tenure=4]],[]>
+2022-10-11 00:54:06 [http-nio-8084-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 00:54:11 [http-nio-8084-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Token has been modified by unauthorized user] with root cause
+javax.servlet.ServletException: Token has been modified by unauthorized user
+	at com.capstone.filter.loanapiFilter.doFilter(loanapiFilter.java:56)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-11 00:54:16 [http-nio-8084-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-11 00:54:16 [http-nio-8084-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@54072429
+2022-10-11 00:54:16 [http-nio-8084-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 00:54:16 [http-nio-8084-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-11 00:54:16 [http-nio-8084-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5ac0c0d9
+2022-10-11 00:54:16 [http-nio-8084-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 00:54:16 [http-nio-8084-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoan() with arguments=[loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10], loan [loanaccno=202211012, category=Vehicle, loan_amount=110000.0, custid=202200001, interest_rate=3.7, tenure=2], loan [loanaccno=202211021, category=Personal, loan_amount=200000.0, custid=202200002, interest_rate=8.0, tenure=7], loan [loanaccno=202211022, category=Vehicle, loan_amount=500000.0, custid=202200002, interest_rate=3.6, tenure=3], loan [loanaccno=202211031, category=Personal, loan_amount=210000.0, custid=202200003, interest_rate=8.0, tenure=5], loan [loanaccno=202211032, category=Home, loan_amount=5000000.0, custid=202200003, interest_rate=6.7, tenure=10], loan [loanaccno=202211033, category=Vehicle, loan_amount=350000.0, custid=202200003, interest_rate=3.6, tenure=3], loan [loanaccno=202211041, category=Personal, loan_amount=410000.0, custid=202200004, interest_rate=7.0, tenure=4], loan [loanaccno=202211042, category=Home, loan_amount=320000.0, custid=202200004, interest_rate=6.7, tenure=3], loan [loanaccno=202211051, category=Personal, loan_amount=500000.0, custid=202200005, interest_rate=7.0, tenure=4]]
+2022-10-11 00:54:16 [http-nio-8084-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 00:54:16 [http-nio-8084-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloan() with arguments=<200 OK OK,[loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10], loan [loanaccno=202211012, category=Vehicle, loan_amount=110000.0, custid=202200001, interest_rate=3.7, tenure=2], loan [loanaccno=202211021, category=Personal, loan_amount=200000.0, custid=202200002, interest_rate=8.0, tenure=7], loan [loanaccno=202211022, category=Vehicle, loan_amount=500000.0, custid=202200002, interest_rate=3.6, tenure=3], loan [loanaccno=202211031, category=Personal, loan_amount=210000.0, custid=202200003, interest_rate=8.0, tenure=5], loan [loanaccno=202211032, category=Home, loan_amount=5000000.0, custid=202200003, interest_rate=6.7, tenure=10], loan [loanaccno=202211033, category=Vehicle, loan_amount=350000.0, custid=202200003, interest_rate=3.6, tenure=3], loan [loanaccno=202211041, category=Personal, loan_amount=410000.0, custid=202200004, interest_rate=7.0, tenure=4], loan [loanaccno=202211042, category=Home, loan_amount=320000.0, custid=202200004, interest_rate=6.7, tenure=3], loan [loanaccno=202211051, category=Personal, loan_amount=500000.0, custid=202200005, interest_rate=7.0, tenure=4]],[]>
+2022-10-11 00:54:16 [http-nio-8084-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 00:56:23 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 01:01:23 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 01:02:13 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084 - Re-registering apps/LOAN-API
+2022-10-11 01:02:13 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084: registering service...
+2022-10-11 01:02:13 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084 - registration status: 204
+2022-10-11 01:02:43 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-11 01:02:43 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-11 01:02:43 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-11 01:02:43 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-11 01:02:43 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-11 01:02:43 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2022-10-11 01:02:43 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-11 01:02:43 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-11 01:02:53 [http-nio-8084-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-11 01:02:53 [http-nio-8084-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6178762b
+2022-10-11 01:02:53 [http-nio-8084-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 01:02:53 [http-nio-8084-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-11 01:02:53 [http-nio-8084-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6547eedc
+2022-10-11 01:02:53 [http-nio-8084-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 01:02:54 [http-nio-8084-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoan() with arguments=[loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10], loan [loanaccno=202211012, category=Vehicle, loan_amount=110000.0, custid=202200001, interest_rate=3.7, tenure=2], loan [loanaccno=202211021, category=Personal, loan_amount=200000.0, custid=202200002, interest_rate=8.0, tenure=7], loan [loanaccno=202211022, category=Vehicle, loan_amount=500000.0, custid=202200002, interest_rate=3.6, tenure=3], loan [loanaccno=202211031, category=Personal, loan_amount=210000.0, custid=202200003, interest_rate=8.0, tenure=5], loan [loanaccno=202211032, category=Home, loan_amount=5000000.0, custid=202200003, interest_rate=6.7, tenure=10], loan [loanaccno=202211033, category=Vehicle, loan_amount=350000.0, custid=202200003, interest_rate=3.6, tenure=3], loan [loanaccno=202211041, category=Personal, loan_amount=410000.0, custid=202200004, interest_rate=7.0, tenure=4], loan [loanaccno=202211042, category=Home, loan_amount=320000.0, custid=202200004, interest_rate=6.7, tenure=3], loan [loanaccno=202211051, category=Personal, loan_amount=500000.0, custid=202200005, interest_rate=7.0, tenure=4]]
+2022-10-11 01:02:54 [http-nio-8084-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 01:02:54 [http-nio-8084-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloan() with arguments=<200 OK OK,[loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10], loan [loanaccno=202211012, category=Vehicle, loan_amount=110000.0, custid=202200001, interest_rate=3.7, tenure=2], loan [loanaccno=202211021, category=Personal, loan_amount=200000.0, custid=202200002, interest_rate=8.0, tenure=7], loan [loanaccno=202211022, category=Vehicle, loan_amount=500000.0, custid=202200002, interest_rate=3.6, tenure=3], loan [loanaccno=202211031, category=Personal, loan_amount=210000.0, custid=202200003, interest_rate=8.0, tenure=5], loan [loanaccno=202211032, category=Home, loan_amount=5000000.0, custid=202200003, interest_rate=6.7, tenure=10], loan [loanaccno=202211033, category=Vehicle, loan_amount=350000.0, custid=202200003, interest_rate=3.6, tenure=3], loan [loanaccno=202211041, category=Personal, loan_amount=410000.0, custid=202200004, interest_rate=7.0, tenure=4], loan [loanaccno=202211042, category=Home, loan_amount=320000.0, custid=202200004, interest_rate=6.7, tenure=3], loan [loanaccno=202211051, category=Personal, loan_amount=500000.0, custid=202200005, interest_rate=7.0, tenure=4]],[]>
+2022-10-11 01:02:54 [http-nio-8084-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 01:05:21 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.loanController
+2022-10-11 01:05:21 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@33a6c2cd
+2022-10-11 01:05:21 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 01:05:21 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.loanServiceImp
+2022-10-11 01:05:21 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3d612ac9
+2022-10-11 01:05:21 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 01:05:21 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.loanServiceImp.getLoan() with arguments=[loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10], loan [loanaccno=202211012, category=Vehicle, loan_amount=110000.0, custid=202200001, interest_rate=3.7, tenure=2], loan [loanaccno=202211021, category=Personal, loan_amount=200000.0, custid=202200002, interest_rate=8.0, tenure=7], loan [loanaccno=202211022, category=Vehicle, loan_amount=500000.0, custid=202200002, interest_rate=3.6, tenure=3], loan [loanaccno=202211031, category=Personal, loan_amount=210000.0, custid=202200003, interest_rate=8.0, tenure=5], loan [loanaccno=202211032, category=Home, loan_amount=5000000.0, custid=202200003, interest_rate=6.7, tenure=10], loan [loanaccno=202211033, category=Vehicle, loan_amount=350000.0, custid=202200003, interest_rate=3.6, tenure=3], loan [loanaccno=202211041, category=Personal, loan_amount=410000.0, custid=202200004, interest_rate=7.0, tenure=4], loan [loanaccno=202211042, category=Home, loan_amount=320000.0, custid=202200004, interest_rate=6.7, tenure=3], loan [loanaccno=202211051, category=Personal, loan_amount=500000.0, custid=202200005, interest_rate=7.0, tenure=4]]
+2022-10-11 01:05:21 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 01:05:21 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.loanController.getloan() with arguments=<200 OK OK,[loan [loanaccno=202211011, category=Home, loan_amount=1500000.0, custid=202200001, interest_rate=5.0, tenure=10], loan [loanaccno=202211012, category=Vehicle, loan_amount=110000.0, custid=202200001, interest_rate=3.7, tenure=2], loan [loanaccno=202211021, category=Personal, loan_amount=200000.0, custid=202200002, interest_rate=8.0, tenure=7], loan [loanaccno=202211022, category=Vehicle, loan_amount=500000.0, custid=202200002, interest_rate=3.6, tenure=3], loan [loanaccno=202211031, category=Personal, loan_amount=210000.0, custid=202200003, interest_rate=8.0, tenure=5], loan [loanaccno=202211032, category=Home, loan_amount=5000000.0, custid=202200003, interest_rate=6.7, tenure=10], loan [loanaccno=202211033, category=Vehicle, loan_amount=350000.0, custid=202200003, interest_rate=3.6, tenure=3], loan [loanaccno=202211041, category=Personal, loan_amount=410000.0, custid=202200004, interest_rate=7.0, tenure=4], loan [loanaccno=202211042, category=Home, loan_amount=320000.0, custid=202200004, interest_rate=6.7, tenure=3], loan [loanaccno=202211051, category=Personal, loan_amount=500000.0, custid=202200005, interest_rate=7.0, tenure=4]],[]>
+2022-10-11 01:05:21 [http-nio-8084-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-11 01:06:23 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application LOAN-API with eureka with status DOWN
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665430667761, current=DOWN, previous=UP]
+2022-10-11 01:07:47 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084: registering service...
+2022-10-11 01:07:47 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084 - registration status: 204
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8084"]
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8084"]
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8084"]
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-10-11 01:07:47 [RMI TCP Connection(57)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-11 01:07:50 [RMI TCP Connection(57)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-11 01:07:50 [RMI TCP Connection(57)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_LOAN-API/192.168.0.4:loan-api:8084 - deregister  status: 200
+2022-10-11 01:07:50 [RMI TCP Connection(57)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

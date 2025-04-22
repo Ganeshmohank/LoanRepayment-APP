@@ -1,0 +1,14 @@
+package com.capstone.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import com.capstone.model.accountinfo;
+public interface accountinfoService {
+	public List<accountinfo> getallaccountInfo();
+
+    public List<accountinfo> getAcountsByCustId(int custid);
+
+    public accountinfo updateBalence(accountinfo accObj);
+
+}

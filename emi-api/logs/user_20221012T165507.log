@@ -1,0 +1,736 @@
+2022-10-12 16:55:09 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.4.1 on DESKTOP-HB38583 with PID 17336 (C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api\target\classes started by Shalini in C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api)
+2022-10-12 16:55:09 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-12 16:55:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-12 16:55:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-12 16:55:11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 16:55:11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 300 ms. Found 1 JPA repository interfaces.
+2022-10-12 16:55:12 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=27ea66f2-a049-32ee-806a-2cfedeab83d8
+2022-10-12 16:55:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-12 16:55:14 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-12 16:55:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 16:55:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 16:55:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 16:55:14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5134 ms
+2022-10-12 16:55:14 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-12 16:55:15 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-12 16:55:15 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-12 16:55:15 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-12 16:55:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-12 16:55:16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-12 16:55:16 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-12 16:55:18 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 16:55:18 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 16:55:20 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 16:55:22 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-12 16:55:24 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-12 16:55:25 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-12 16:55:25 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-12 16:55:25 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-12 16:55:25 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665573925901 with initial instances count: 2
+2022-10-12 16:55:25 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-12 16:55:25 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665573925909, current=UP, previous=STARTING]
+2022-10-12 16:55:25 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081: registering service...
+2022-10-12 16:55:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-12 16:55:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-12 16:55:25 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-12 16:55:26 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - registration status: 204
+2022-10-12 16:55:26 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 18.525 seconds (JVM running for 21.213)
+2022-10-12 17:00:25 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:05:25 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:09:53 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-12 17:09:53 [Thread-1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-12 17:09:53 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665574793531, current=DOWN, previous=UP]
+2022-10-12 17:09:53 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081: registering service...
+2022-10-12 17:09:53 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - registration status: 204
+2022-10-12 17:09:53 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:09:53 [Thread-1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 17:09:53 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:09:53 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:09:53 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 17:09:53 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-10-12 17:09:53 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-10-12 17:09:53 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-12 17:09:56 [DiscoveryClient-0] WARN  c.n.discovery.TimedSupervisorTask - task supervisor shutting down, can't accept the task
+2022-10-12 17:09:56 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-12 17:09:56 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - deregister  status: 200
+2022-10-12 17:09:56 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-12 17:09:57 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.4.1 on DESKTOP-HB38583 with PID 17336 (C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api\target\classes started by Shalini in C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api)
+2022-10-12 17:09:57 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-12 17:09:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 17:09:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-10-12 17:09:58 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=27ea66f2-a049-32ee-806a-2cfedeab83d8
+2022-10-12 17:09:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-12 17:09:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:09:58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 17:09:58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 17:09:58 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 17:09:58 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1021 ms
+2022-10-12 17:09:58 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-12 17:09:58 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-12 17:09:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-10-12 17:09:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-10-12 17:09:58 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-12 17:09:58 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 17:09:58 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 17:09:58 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 17:09:58 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-12 17:09:59 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-12 17:09:59 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-12 17:09:59 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-12 17:09:59 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-12 17:09:59 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665574799630 with initial instances count: 4
+2022-10-12 17:09:59 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-12 17:09:59 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665574799654, current=UP, previous=STARTING]
+2022-10-12 17:09:59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:09:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-12 17:09:59 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-12 17:09:59 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081: registering service...
+2022-10-12 17:09:59 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - registration status: 204
+2022-10-12 17:10:00 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 4.128 seconds (JVM running for 895.756)
+2022-10-12 17:10:00 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-12 17:10:01 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-12 17:10:01 [Thread-7] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-12 17:10:01 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665574801764, current=DOWN, previous=UP]
+2022-10-12 17:10:01 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081: registering service...
+2022-10-12 17:10:01 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - registration status: 204
+2022-10-12 17:10:01 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:01 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 17:10:01 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:01 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:01 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 17:10:01 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-10-12 17:10:01 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-10-12 17:10:01 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-12 17:10:04 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-12 17:10:04 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - deregister  status: 200
+2022-10-12 17:10:04 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-12 17:10:05 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.4.1 on DESKTOP-HB38583 with PID 17336 (C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api\target\classes started by Shalini in C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api)
+2022-10-12 17:10:05 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-12 17:10:05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 17:10:05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2022-10-12 17:10:05 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=27ea66f2-a049-32ee-806a-2cfedeab83d8
+2022-10-12 17:10:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-12 17:10:06 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:06 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 17:10:06 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 17:10:06 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 17:10:06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 904 ms
+2022-10-12 17:10:06 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-12 17:10:06 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-12 17:10:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-10-12 17:10:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-10-12 17:10:06 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-12 17:10:06 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 17:10:06 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 17:10:06 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 17:10:06 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-12 17:10:07 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-12 17:10:08 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-12 17:10:08 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-12 17:10:08 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-12 17:10:08 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665574808080 with initial instances count: 4
+2022-10-12 17:10:08 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-12 17:10:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665574808084, current=UP, previous=STARTING]
+2022-10-12 17:10:08 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081: registering service...
+2022-10-12 17:10:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-12 17:10:08 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-12 17:10:08 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - registration status: 204
+2022-10-12 17:10:08 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 3.367 seconds (JVM running for 903.212)
+2022-10-12 17:10:08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-12 17:10:20 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-12 17:10:20 [Thread-13] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-12 17:10:20 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665574820661, current=DOWN, previous=UP]
+2022-10-12 17:10:20 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081: registering service...
+2022-10-12 17:10:20 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - registration status: 204
+2022-10-12 17:10:20 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:20 [Thread-13] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 17:10:20 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:20 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:20 [Thread-13] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 17:10:20 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2022-10-12 17:10:20 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2022-10-12 17:10:20 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-12 17:10:23 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-12 17:10:23 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - deregister  status: 200
+2022-10-12 17:10:23 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-12 17:10:25 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.4.1 on DESKTOP-HB38583 with PID 17336 (C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api\target\classes started by Shalini in C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api)
+2022-10-12 17:10:25 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-12 17:10:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 17:10:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2022-10-12 17:10:25 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=27ea66f2-a049-32ee-806a-2cfedeab83d8
+2022-10-12 17:10:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-12 17:10:26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 17:10:26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 17:10:26 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 17:10:26 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 643 ms
+2022-10-12 17:10:26 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-12 17:10:26 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-12 17:10:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2022-10-12 17:10:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2022-10-12 17:10:26 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-12 17:10:26 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 17:10:26 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 17:10:26 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 17:10:26 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-12 17:10:26 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-12 17:10:27 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-12 17:10:27 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-12 17:10:27 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-12 17:10:27 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665574827328 with initial instances count: 4
+2022-10-12 17:10:27 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-12 17:10:27 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665574827332, current=UP, previous=STARTING]
+2022-10-12 17:10:27 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/localhost:emi-api:8081: registering service...
+2022-10-12 17:10:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-12 17:10:27 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-12 17:10:27 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/localhost:emi-api:8081 - registration status: 204
+2022-10-12 17:10:27 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 3.627 seconds (JVM running for 922.47)
+2022-10-12 17:10:27 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-12 17:10:32 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-12 17:10:32 [Thread-19] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-12 17:10:32 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665574832245, current=DOWN, previous=UP]
+2022-10-12 17:10:32 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/localhost:emi-api:8081: registering service...
+2022-10-12 17:10:32 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/localhost:emi-api:8081 - registration status: 204
+2022-10-12 17:10:32 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:32 [Thread-19] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 17:10:32 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:32 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:32 [Thread-19] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 17:10:32 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2022-10-12 17:10:32 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2022-10-12 17:10:32 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-12 17:10:35 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-12 17:10:35 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/localhost:emi-api:8081 - deregister  status: 200
+2022-10-12 17:10:35 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-12 17:10:35 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.4.1 on DESKTOP-HB38583 with PID 17336 (C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api\target\classes started by Shalini in C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api)
+2022-10-12 17:10:35 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-12 17:10:36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 17:10:36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2022-10-12 17:10:36 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=27ea66f2-a049-32ee-806a-2cfedeab83d8
+2022-10-12 17:10:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-12 17:10:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 17:10:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 17:10:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 17:10:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 896 ms
+2022-10-12 17:10:36 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-12 17:10:36 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-12 17:10:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2022-10-12 17:10:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2022-10-12 17:10:36 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-12 17:10:36 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 17:10:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 17:10:37 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 17:10:37 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-12 17:10:38 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-12 17:10:38 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-12 17:10:38 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-12 17:10:38 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-12 17:10:38 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665574838475 with initial instances count: 4
+2022-10-12 17:10:38 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-12 17:10:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665574838480, current=UP, previous=STARTING]
+2022-10-12 17:10:38 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081: registering service...
+2022-10-12 17:10:38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:10:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-12 17:10:38 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-12 17:10:38 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - registration status: 204
+2022-10-12 17:10:38 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 3.303 seconds (JVM running for 933.665)
+2022-10-12 17:10:38 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-12 17:11:01 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-12 17:11:01 [Thread-25] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EMI-API with eureka with status DOWN
+2022-10-12 17:11:01 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665574861817, current=DOWN, previous=UP]
+2022-10-12 17:11:01 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081: registering service...
+2022-10-12 17:11:01 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - registration status: 204
+2022-10-12 17:11:01 [Thread-25] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:11:01 [Thread-25] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 17:11:01 [Thread-25] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:11:01 [Thread-25] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:11:01 [Thread-25] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 17:11:01 [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2022-10-12 17:11:01 [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2022-10-12 17:11:01 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-10-12 17:11:04 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-10-12 17:11:04 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - deregister  status: 200
+2022-10-12 17:11:04 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-10-12 17:11:05 [restartedMain] INFO  com.capstone.EmiApiApplication - Starting EmiApiApplication using Java 17.0.4.1 on DESKTOP-HB38583 with PID 17336 (C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api\target\classes started by Shalini in C:\Users\Admin\Documents\Capstone\frontend\spring-master\emi-api)
+2022-10-12 17:11:05 [restartedMain] INFO  com.capstone.EmiApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-12 17:11:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 17:11:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-10-12 17:11:06 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=27ea66f2-a049-32ee-806a-2cfedeab83d8
+2022-10-12 17:11:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-12 17:11:06 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:11:06 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 17:11:06 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 17:11:06 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 17:11:06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 673 ms
+2022-10-12 17:11:06 [restartedMain] INFO  o.a.catalina.core.StandardContext - Suspicious URL pattern: [/api/**] in context [], see sections 12.1 and 12.2 of the Servlet specification
+2022-10-12 17:11:06 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-12 17:11:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2022-10-12 17:11:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2022-10-12 17:11:06 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-12 17:11:06 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 17:11:06 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 17:11:06 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 17:11:07 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-10-12 17:11:07 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-10-12 17:11:07 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-12 17:11:07 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-10-12 17:11:07 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-10-12 17:11:07 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1665574867645 with initial instances count: 4
+2022-10-12 17:11:07 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EMI-API with eureka with status UP
+2022-10-12 17:11:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1665574867650, current=UP, previous=STARTING]
+2022-10-12 17:11:07 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081: registering service...
+2022-10-12 17:11:07 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-12 17:11:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-12 17:11:07 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2022-10-12 17:11:07 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EMI-API/192.168.123.101:emi-api:8081 - registration status: 204
+2022-10-12 17:11:07 [restartedMain] INFO  com.capstone.EmiApiApplication - Started EmiApiApplication in 2.89 seconds (JVM running for 962.812)
+2022-10-12 17:11:07 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-12 17:16:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:19:39 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-12 17:19:39 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-12 17:19:39 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2022-10-12 17:19:39 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-10-12 17:21:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:23:31 [http-nio-8081-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-10-12 17:23:44 [http-nio-8081-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7766745
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7f0c3efb
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@29d3b770
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:24:21 [http-nio-8081-exec-4] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@48bb56f0
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@467ca197
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5fdc80d2
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:24:48 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:26:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4ad7e4e7
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@441013cd
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7606944f
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:27:25 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@308c0330
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3e4beb51
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7df5912e
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:28:11 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@21f11a8f
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@64f380d5
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@9207ff
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:30:08 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2fbbebf4
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5be72061
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@482c9d62
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:30:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@77b69a3b
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@32b41aa9
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@56d55bd4
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:30:46 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:31:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4fbfb31f
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@abd248c
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6edcc5e8
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:31:09 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@30716812
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5350f9c7
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3d0a5c4e
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:32:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7c0b9db3
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@59886dfa
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2d5be01c
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:33:30 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4663b15f
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6310f580
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5301e5ac
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:33:52 [http-nio-8081-exec-8] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@661140a0
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@68d6a212
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4b39dfc8
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:34:16 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@444dcb8
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@b4a5112
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@6490e339
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:35:45 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1d8dc5db
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@234e0959
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3319d93c
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:36:08 [http-nio-8081-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@682d7a60
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@67fbd1c
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@60d5bfb0
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:36:25 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@62415b06
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@66d7453f
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@19fe90a4
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:38:10 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:35 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:38:35 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@451c69ff
+2022-10-12 17:38:35 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:35 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:38:35 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4bdb9f2c
+2022-10-12 17:38:35 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:36 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:38:36 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:36 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:38:36 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3603d6af
+2022-10-12 17:38:36 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:36 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:38:36 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:36 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:38:36 [http-nio-8081-exec-6] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@158f3d8f
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@a4be6ef
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@606965aa
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:38:41 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7fea9f94
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@15b6b2b2
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@67e20b91
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:39:48 [http-nio-8081-exec-10] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2e14b762
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@43df161d
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@a8c7b54
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:40:04 [http-nio-8081-exec-9] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3d6ccced
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7335fe2c
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@890f912
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0]
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=1, loanaccno=202211011, loan_status=active, emi_amount=15910.0, upcomming_payment_date=2022-11-07, remaining_amount=1500000.0],[]>
+2022-10-12 17:40:29 [http-nio-8081-exec-1] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 17:41:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:46:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:51:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 17:56:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 18:01:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 18:06:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 18:11:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 18:16:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@9e135a7
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@8023c80
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0]
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@5385a28f
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0]
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0],[]>
+2022-10-12 18:18:23 [http-nio-8081-exec-3] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@3c868eb4
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@2716b56
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0]
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@40c64be6
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0]
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0],[]>
+2022-10-12 18:18:32 [http-nio-8081-exec-5] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:21:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.emiController
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7b5c1e28
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@1ae49f89
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0]
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.emiServiceImp
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@7b547e60
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.emiServiceImp.getEmiData() with arguments=emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0]
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.emiController.getemiofAccount() with arguments=<200 OK OK,emi [s_no=5, loanaccno=202211031, loan_status=active, emi_amount=4258.0, upcomming_payment_date=2022-11-07, remaining_amount=210000.0],[]>
+2022-10-12 18:21:12 [http-nio-8081-exec-7] INFO  com.capstone.aspect.LoggerAspect - *************************************

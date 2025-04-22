@@ -1,0 +1,16 @@
+package com.capstone.service;
+
+import java.util.List;
+import com.capstone.model.Loaninfo;
+
+public interface loanService {		
+	
+		public List<Loaninfo> getLoan();
+
+		public Loaninfo getLoanAccountDetails(int accNumber);
+		public List<Loaninfo> getLoanAccByCust(int custid);
+
+		public Loaninfo getloanDetailsofCustbyLoan(int custid, int accno);
+	}
+
+

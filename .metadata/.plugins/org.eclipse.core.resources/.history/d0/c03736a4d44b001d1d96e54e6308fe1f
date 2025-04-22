@@ -1,0 +1,9 @@
+package com.capstone.service;
+
+import com.capstone.model.*;
+
+public interface usersService {
+
+	public Users getByCustid(int custid);
+
+}

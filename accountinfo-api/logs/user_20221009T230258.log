@@ -1,0 +1,47 @@
+2022-10-09 23:02:59 [restartedMain] INFO  c.capstone.AccountinfoApiApplication - Starting AccountinfoApiApplication using Java 17.0.2 on MOHAN with PID 10780 (C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\accountinfo-api\target\classes started by mohan in C:\Users\mohan\Downloads\Natwest Capstone\frontend\spring-master\accountinfo-api)
+2022-10-09 23:02:59 [restartedMain] INFO  c.capstone.AccountinfoApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-09 23:02:59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-09 23:02:59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-09 23:03:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-09 23:03:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2022-10-09 23:03:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-10-09 23:03:00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-10-09 23:03:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-09 23:03:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-09 23:03:00 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-09 23:03:00 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1496 ms
+2022-10-09 23:03:01 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-09 23:03:01 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-09 23:03:01 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-09 23:03:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-09 23:03:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-09 23:03:02 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-09 23:03:02 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-09 23:03:02 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-09 23:03:02 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-09 23:03:03 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-10-09 23:03:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-10-09 23:03:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-09 23:03:03 [restartedMain] INFO  c.capstone.AccountinfoApiApplication - Started AccountinfoApiApplication in 4.36 seconds (JVM running for 5.447)
+2022-10-09 23:03:53 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-09 23:03:53 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-09 23:03:53 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-10-09 23:03:53 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.controller.accountinfoController
+2022-10-09 23:03:53 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@4e4e93c7
+2022-10-09 23:03:53 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-09 23:03:53 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method name: com.capstone.service.accountinfoServiceImpl
+2022-10-09 23:03:53 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - Method arguments:[Ljava.lang.Object;@416d6f83
+2022-10-09 23:03:53 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-09 23:03:54 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.service.accountinfoServiceImpl.getallaccountInfo() with arguments=[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=600000.0], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=50000.0], accountinfo [accno=202200021, custid=202200002, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=457456.0], accountinfo [accno=202200022, custid=202200002, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=3000.0], accountinfo [accno=202200031, custid=202200003, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=0.0], accountinfo [accno=202200041, custid=202200004, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=575385.0], accountinfo [accno=202200042, custid=202200004, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=87856.0], accountinfo [accno=202200043, custid=202200004, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=150000.0], accountinfo [accno=202200051, custid=202200005, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=3128.0], accountinfo [accno=202200053, custid=202200005, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=150000.0]]
+2022-10-09 23:03:54 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-09 23:03:54 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - During: class com.capstone.controller.accountinfoController.getemi() with arguments=<200 OK OK,[accountinfo [accno=202200011, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=600000.0], accountinfo [accno=202200012, custid=202200001, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=50000.0], accountinfo [accno=202200021, custid=202200002, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=457456.0], accountinfo [accno=202200022, custid=202200002, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=3000.0], accountinfo [accno=202200031, custid=202200003, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=0.0], accountinfo [accno=202200041, custid=202200004, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=575385.0], accountinfo [accno=202200042, custid=202200004, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=87856.0], accountinfo [accno=202200043, custid=202200004, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=150000.0], accountinfo [accno=202200051, custid=202200005, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=3128.0], accountinfo [accno=202200053, custid=202200005, branch_name=Bengaluru, ifsc=NATW000123, savingsamount=150000.0]],[]>
+2022-10-09 23:03:54 [http-nio-8082-exec-2] INFO  com.capstone.aspect.LoggerAspect - *************************************
+2022-10-09 23:05:01 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-10-09 23:05:01 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8082"]
+2022-10-09 23:05:01 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-09 23:05:01 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-09 23:05:01 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8082"]
+2022-10-09 23:05:01 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8082"]
+2022-10-09 23:05:01 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-09 23:05:01 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-10-09 23:05:01 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

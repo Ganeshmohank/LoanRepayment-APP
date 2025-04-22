@@ -1,0 +1,74 @@
+package com.capstone.model;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class LoanInfo {
+
+@Id
+private int loanaccno;
+private String category;
+private double loan_amount;
+private int custid;
+private float interest_rate;
+private int tenure;
+
+public int getLoanaccno() {
+	return loanaccno;
+}
+public void setLoanaccno(int loanaccno) {
+	this.loanaccno = loanaccno;
+}
+public String getCategory() {
+	return category;
+}
+public void setCategory(String category) {
+	this.category = category;
+}
+public double getLoan_amount() {
+	return loan_amount;
+}
+public void setLoan_amount(double loan_amount) {
+	this.loan_amount = loan_amount;
+}
+public int getCustid() {
+	return custid;
+}
+public void setCustid(int custid) {
+	this.custid = custid;
+}
+public float getInterest_rate() {
+	return interest_rate;
+}
+public void setInterest_rate(float interest_rate) {
+	this.interest_rate = interest_rate;
+}
+public int getTenure() {
+	return tenure;
+}
+public void setTenure(int tenure) {
+	this.tenure = tenure;
+}
+public LoanInfo() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+public LoanInfo(int loanaccno, String category, double loan_amount, int custid, float interest_rate, int tenure) {
+	super();
+	this.loanaccno = loanaccno;
+	this.category = category;
+	this.loan_amount = loan_amount;
+	this.custid = custid;
+	this.interest_rate = interest_rate;
+	this.tenure = tenure;
+}
+@Override
+public String toString() {
+	return "loan [loanaccno=" + loanaccno + ", category=" + category + ", loan_amount=" + loan_amount + ", custid="
+			+ custid + ", interest_rate=" + interest_rate + ", tenure=" + tenure + "]";
+}
+
+
+}

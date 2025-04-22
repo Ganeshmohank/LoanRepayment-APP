@@ -1,0 +1,142 @@
+
+
+# version: '3.8'
+
+# services:
+#   mysql:
+#     image: mysql:8.0
+#     container_name: mysql
+#     ports:
+#       - "3307:3306"
+#     environment:
+#       MYSQL_ROOT_PASSWORD: root
+#       MYSQL_DATABASE: capstone
+#       MYSQL_USER: mohan
+#       MYSQL_PASSWORD: root
+#     volumes:
+#       - ./db:/docker-entrypoint-initdb.d
+
+services:
+  # MySQL Database
+  mysql-container:
+    image: mysql:8.0
+    container_name: mysql-container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: capstone
+      MYSQL_USER: mohan
+      MYSQL_PASSWORD: root
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d # SQL files for initialization
+
+  # Eureka Server
+  server-api:
+    build:
+      context: ./server-api
+    container_name: server-api
+    ports:
+      - "8761:8761"
+    depends_on:
+      - mysql-container
+
+  # App Gateway
+  app-gateway:
+    build:
+      context: ./app-gateway
+    container_name: app-gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - server-api
+
+  # Microservices
+  accountinfo-api:
+    build:
+      context: ./accountinfo-api
+    container_name: accountinfo-api
+    ports:
+      - "8082:8082"
+    depends_on:
+      - server-api
+      - mysql-container
+
+  emi-api:
+    build:
+      context: ./emi-api
+    container_name: emi-api
+    ports:
+      - "8081:8081"
+    depends_on:
+      - server-api
+      - mysql-container
+
+  loan-api:
+    build:
+      context: ./loan-api
+    container_name: loan-api
+    ports:
+      - "8084:8084"
+    depends_on:
+      - server-api
+      - mysql-container
+
+  paymentinfo-api:
+    build:
+      context: ./paymentinfo-api
+    container_name: paymentinfo-api
+    ports:
+      - "8083:8083"
+    depends_on:
+      - server-api
+      - mysql-container
+
+  savingpaymenthistory-api:
+    build:
+      context: ./savingpaymenthistory-api
+    container_name: savingpaymenthistory-api
+    ports:
+      - "8087:8087"
+    depends_on:
+      - server-api
+      - mysql-container
+
+  authentication-api:
+    build:
+      context: ./authentication-api
+    container_name: authentication-api
+    environment:
+      capstone_db: jdbc:mysql://mysql-container:3306/capstone
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+    depends_on:
+      - mysql-container
+      - server-api
+    ports:
+      - "8085:8085"
+
+
+  users-api:
+    build:
+      context: ./users-api
+    container_name: users-api
+    ports:
+      - "8086:8086"
+    depends_on:
+      - server-api
+      - mysql-container
+
+  angular-app:
+    build:
+      context: ./angular-app
+    container_name: angular-app1
+    ports:
+      - "4200:80"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

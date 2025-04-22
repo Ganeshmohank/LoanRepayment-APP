@@ -1,0 +1,30 @@
+package com.capstone;
+
+import java.util.Arrays;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+
+import com.capstone.filter.paymentapiFilter;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+@EnableEurekaClient
+@SpringBootApplication
+public class PaymentinfoApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PaymentinfoApiApplication.class, args);
+	}
+	@Bean
+	public FilterRegistrationBean jwtFilter() {
+	    final FilterRegistrationBean regBean=new FilterRegistrationBean();
+	    regBean.setFilter(new paymentapiFilter());
+	    regBean.addUrlPatterns("/api/*");
+	    return regBean;
+	}
+	
+}

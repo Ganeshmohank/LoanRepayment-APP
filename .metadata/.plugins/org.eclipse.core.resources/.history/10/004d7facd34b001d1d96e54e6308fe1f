@@ -1,0 +1,12 @@
+package com.capstone.service;
+
+import java.util.List;
+
+import com.capstone.model.paymentinfo;
+
+public interface paymentService {
+	
+	public List<paymentinfo> getpayment();
+	public paymentinfo getfindByTransactionNo(int transaction_no);
+	public paymentinfo addTransaction(paymentinfo payment);
+}

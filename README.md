@@ -117,3 +117,7 @@ docker compose up --build
 ## 📜 License
 
 This project is for educational/demo purposes.
+## 🗃️ Sample Data
+
+UId's: 202200001-05 
+pWd  : Natwest@123
